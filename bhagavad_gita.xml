@@ -1,0 +1,2153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="db2xhtml.xsl"?>
+<!DOCTYPE book PUBLIC '-//OASIS//DTD DocBook XML V5.0//EN'
+          'schemas/docbook.dtd'>
+<!-- validate by [Linux] (replace _ by -)
+       xmllint __relaxng docboox.rng specification.xml
+-->
+<!-- <?xml-stylesheet type="text/xsl" href="http://docbook.sourceforge.net/release/xsl-ns/current/xhtml/docbook.xsl"?> -->
+<!-- <?xml-stylesheet type="text/xsl" href="docbook-xsl-ns/xhtml/docbook.xsl"?> -->
+<!--
+  TODO: Neopravit jogín na jógin atd.?
+-->
+<book
+   xmlns="http://docbook.org/ns/docbook" version="5.0"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xml:lang="cs"
+   status="draft">
+
+  <info>
+    <title>Bhagavad Gíta</title>
+    <subtitle>podle anglického překladu Svámího Čidbhavánandy</subtitle>
+    <!--
+    paní Hálová nechce uvádět
+    <othercredit class="translator">
+      <personname>
+	<firstname>Ruth</firstname>
+	<surname>Hálová</surname>
+      </personname>
+    </othercredit>
+    -->
+    <!--
+    <edition>...</edition>
+    -->
+    <pubdate>2007</pubdate>
+    <!--
+    <legalnotice>
+      <simpara>Tento překlad či jeho část je možno rozšiřovat pouze
+      zdarma.</simpara>
+    </legalnotice>
+    -->
+    <legalnotice>
+      <para>
+	<inlinemediaobject>
+	  <imageobject>
+	    <!-- http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png -->
+	    <imagedata fileref="88x31.png" format="PNG"/>
+	  </imageobject>
+	</inlinemediaobject> Toto dílo je licencováno pod
+	<emphasis>Creative Commons Attribution-Noncommercial-Share
+	Alike 3.0 Unported</emphasis>.
+      </para>
+      <formalpara>
+	<title>Neoficiální překlad shrnutí této licence:</title>
+	<para>
+	  <variablelist>
+	    <title>Je možno volně:</title>
+	    <varlistentry>
+	      <term>sdílet -</term>
+	      <listitem>
+		<simpara>
+		  kopírovat, distribuovat a veřejně vysílat
+		  dílo,
+		</simpara>
+	      </listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term>modifikovat -</term>
+	      <listitem>
+		<simpara>upravovat dílo,</simpara>
+	      </listitem>
+	    </varlistentry>
+	  </variablelist>
+	  <variablelist>
+	    <title>za následujících podmínek:</title>
+	    <varlistentry>
+	      <term>Označení autorství.</term>
+	      <listitem>
+		<simpara>
+		  Musíte označit autorství díla způsobem určeným autorem
+		  či držitelem licence (avšak ne způsobem který by mohl
+		  naznačovat, že se tito hlásí k či k Vašemu použití
+		  díla).
+		  <!--
+		      You must attribute the work in the manner specified
+		      by the author or licensor (but not in any way that
+		      suggests that they endorse you or your use of the
+		      work).
+		  -->
+		</simpara>
+	      </listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term>Nekomerčně.</term>
+	      <listitem>
+		<simpara>
+		  Není možno využívat dílo pro komerční účely.
+		</simpara>
+	      </listitem>
+	    </varlistentry>
+	    <varlistentry>
+	      <term>Stejný způsob licencování.</term>
+	      <listitem>
+		<simpara>
+		  Pokud modifikujete, upravujete či rozšiřujete dílo,
+		  můžete výsledné dílo distribuovat pouze pod stejnou či
+		  podobnou licencí.
+		</simpara>
+	      </listitem>
+	    </varlistentry>
+	  </variablelist>
+	  <itemizedlist>
+	    <listitem>
+	      <simpara>
+		Pro jakékoliv použití či distribuci díla musíte jasně
+		označit licenční podmínky díla. Nejlépe odkazem na
+		webovou stránku Creative Commons: <link
+		xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+	      </simpara>
+	    </listitem>
+	    <listitem>
+	      <simpara>
+		Od jakékoliv z těchto podmínek lze upustit s výslovným
+		souhlasem držitele práv k dílu.
+	      </simpara>
+	    </listitem>
+	    <listitem>
+	      <simpara>
+		Podmínky této licence nemohou oslabit či omezit práva autora.
+	      </simpara>
+	    </listitem>
+	  </itemizedlist>
+	</para>
+      </formalpara>
+      <para>
+	Plný text licence v originálním znění je k dispozici na adrese
+	<link
+	    xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode"/>.
+	Písemnou kopii je možno dopisem vyžádat od
+	Creative Commons, 171 Second Street, Suite 300, San Francisco,
+	California, 94105, USA.
+      </para>
+      <!--
+      <para xml:lang="en">
+	This work is licensed under the Creative Commons
+	Attribution-Noncommercial-Share Alike 3.0 Unported.
+	<variablelist>
+	  <title>You are free:</title>
+	  <varlistentry>
+	    <term>to Share</term>
+	    <listitem>
+	      <simpara>- to copy, distribute and transmit the work</simpara>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term>to Remix</term>
+	    <listitem>
+	      <simpara>- to adapt the work</simpara>
+	    </listitem>
+	  </varlistentry>
+	</variablelist>
+	<variablelist>
+	  <title>Under the following conditions:</title>
+	  <varlistentry>
+	    <term>Attribution.</term>
+	    <listitem>
+	      <simpara>
+		You must attribute the work in the manner specified
+		by the author or licensor (but not in any way that
+		suggests that they endorse you or your use of the
+		work).
+	      </simpara>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term>Noncommercial.</term>
+	    <listitem>
+	      <simpara>
+		You may not use this work for commercial purposes.
+	      </simpara>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term>Share Alike.</term>
+	    <listitem>
+	      <simpara>
+		If you alter, transform, or build upon this work,
+		you may distribute the resulting work only under the
+		same or similar license to this one.
+	      </simpara>
+	    </listitem>
+	  </varlistentry>
+	</variablelist>
+	<itemizedlist>
+	  <listitem>
+	    <simpara>
+	      For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.
+	    </simpara>
+	  </listitem>
+	  <listitem>
+	    <simpara>
+	      Any of the above conditions can be waived if you get
+	      permission from the copyright holder.
+	    </simpara>
+	  </listitem>
+	  <listitem>
+	    <simpara>
+	      Nothing in this license impairs or restricts the
+	      author's moral rights.
+	    </simpara>
+	  </listitem>
+	</itemizedlist>
+	<emphasis>
+	  To view a copy of this license, visit <link
+	  xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+	  (summary) and <link
+	  xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode"/>
+	  (the full license), or send a letter to Creative Commons,
+	  171 Second Street, Suite 300, San Francisco, California,
+	  94105, USA.
+	</emphasis>
+      </para>
+      -->
+    </legalnotice>
+  </info>
+
+  <dedication>
+    <para>
+      <!-- <foreignphrase>Šrí Krišnapranám</foreignphrase> - Věnováno Bohu. -->
+      <!-- TODO -->
+<!--      S&#x015A;r&#x012B; K&#x1E5B;&#x1E63;&#x1E47;apran&#x0101;m - Věnováno Bohu. -->
+      &#0160;Šrí Krišnapranám - Věnováno Bohu.
+    </para>
+  </dedication>
+
+  <preface>
+    <title>Úvod</title>
+    <para>
+      Védské náboženství známé pod názvem Hinduismus vlastní největší
+      počet svatých spisů. Jejich pouhý výčet je pro neznalce
+      ohromující. Základy tohoto náboženství jsou obsaženy
+      v upanišadách a esencí upanišad je Bhagavad Gíta. Bhagavad Gíta
+      je dialog mezi Šrí Krišnou - Bohem a Ardžunou - člověkem. Místem
+      jejich rozhovoru je bojiště, naznačující skutečnost, že život na
+      zemi je opravdu střetem mezi dobrem a zlem. Nakonec vítězí
+      dobro.
+    </para>
+    <para>
+      Bhagavad Gíta je pojednáním o Realitě nazývané
+      <foreignphrase>brahma</foreignphrase> v jejích třech
+      kategoriích, které jsou Imanentní Realita, transcendentní
+      Realita a absolutní Realita. Svět jevů je imanentní
+      Realita. Není to pouhý mechanismus, za který by ho chtěli
+      považovat materialisté. Je to Bohem ustanovené cvičiště, kde
+      prostřednictvím bolesti a radosti v průběhu života a smrti,
+      pomocí přátel a nepřátel jsou všechny bytosti vedeny k rozvoji
+      vlastního božství. Tuto pravdu odhaluje v jedenácté kapitole
+      Gíty vize kosmické formy Boha, jíž byl požehnán Ardžuna. Viděl,
+      že v této formě jsou obsaženy všechny živé
+      bytosti. Transcendentní Realita neboli Íšvara obsahuje, řídí a
+      ovládá to, co je imanentní. Šrí Krišna je Íšvara vtělený a
+      zjevný jako dobrodiní pro oddaného. Tuto realitu mají lidé
+      uctívat a zbožňovat. Ti, kdož mají očištěné srdce, mají k ní
+      přístup stejně jako Ardžuna, a těm, kteří se zdokonalují, Íšvara
+      udělí osvobození. Esencí obou je absolutní Realita -
+      <foreignphrase>nirgunabrahma</foreignphrase>, neboli čiré
+      vědomí. V něm není místo pro jakoukoli dualitu. Figurka ze soli
+      nepřežije koupel v mořské vodě. Stejně tak se rozpustí
+      individualita duchovního aspiranta v kosmickém vědomí
+      (<foreignphrase>pradžňánam</foreignphrase>). To je cílem
+      lidského života.
+    </para>
+    <para>
+      Předmětem jógy je proces a disciplína, s nimiž člověk znovu
+      získává svou totožnost
+      s <foreignphrase>brahma</foreignphrase>. Vykonání obrovského
+      množství práce za trvalého udržování vyrovnané mysli je
+      <foreignphrase>karmajóga</foreignphrase>. Sebeovládání až do
+      morku kosti je <foreignphrase>rádžajóga</foreignphrase>, která
+      učiní člověka
+      celistvým. <foreignphrase>Bhaktijóga</foreignphrase> spojuje
+      veškeré stvoření v jednotu čisté
+      lásky. <foreignphrase>Džňánajóga</foreignphrase> ostří intelekt
+      a dovede jogína k uvědomění, že Realita je jedna bez čehokoli
+      druhého. Tato kniha je příručkou výše jmenovaných jogínských
+      cest.
+    </para>
+    <para>
+      Člověk roste podle toho, jak pěstuje a zušlechťuje svou
+      mysl. Možnosti mysli jsou obrovské. Zhruba lze říci, že se
+      skládá z vůle, citu a poznání. Prvních šest kapitol Gíty
+      pojednává o vývoji vůle, druhých šest kapitol napomáhá rozvoji
+      citu až do jeho vyvrcholení v čistou, inspirovanou
+      lásku. Posledních šest kapitol vyzdvihuje inteligenci latentní
+      v člověku. Harmonický rozvoj těchto tří schopností člověka
+      zdokonaluje. K této dokonalosti Bhagavad Gíta směřuje. Proto je
+      univerzální biblí.
+    </para>
+    <para>
+      Kromě toho, že popisuje historickou událost, Bhagavad Gíta
+      nabízí i subjektivní interpretaci. Bitevní pole Kurukšétra je
+      analogické s lidským tělem. Podobně jako si soupeřící
+      bratranci Kuruovci a Pánduovci na tomto poli vyřizovali účty, i
+      lidské tělo je používáno dobrem a zlem k tomu, aby sloužilo
+      jejich účelům. Stejně jako u Kuruovců těch zlých je větší
+      počet. Počet dobrých je omezen stejně jako Pánduovců. Střet
+      mezi dobrými a špatnými sklony je odvěkým bojem. Většina
+      lidstva si zvolila nesprávnou cestu, právě tak, jako byla
+      kuruovská vojska mnohem početnější, než byly řady
+      Pánduovců. Tak, jak Šrí Krišna - vtělené Božství - řídil
+      válečný vůz ctnostných Pánduovců, nachází se svědomí,
+      podporující dobro, ve svatostánku všech lidských srdcí. Zlí lidé
+      nevěnují pozornost jeho hlasu, stejně jako Kuruovci se
+      neřídili Krišnovými radami. Život člověka je bitva, v níž
+      nakonec ctnost zvítězí nad neřestí.
+    </para>
+    <para>
+      V Bhagavad Gítě nejsou žádné hlavolamy. Její učení je velmi
+      prosté, ač nemusí být pro obyčejného člověka
+      srozumitelné. Přesto se doporučuje studovat tuto knihu odstavec
+      po odstavci se zbožnou pozorností. Cokoli čtenáře osloví a
+      osvítí, nad tím by se měl hluboce zamýšlet. Snazší principy by
+      měl uskutečňovat v praxi. Tím začíná proces upevňování se v józe
+      a student nutně dosáhne pokroku po stránce etické i
+      duchovní. Jak pokročí, zdánlivě složité partie nauky se mu
+      vyjasní. Proto je tato kniha vodítkem k duchovnímu rozvoji.
+    </para>
+    <para>
+      Kdo umí číst původní sanskrtský text, měl by každý den zbožně
+      recitovat jednu kapitolu. Překlad může sledovat zároveň nebo
+      dodatečně.
+    </para>
+    <para>
+      Studium a praktikování pouček Bhagavad Gíty promění obyčejného
+      jedince ve významného člověka bez střetu s jakýmkoli
+      náboženským vyznáním.
+    </para>
+  </preface>
+
+  <preface>
+    <title>Gíta dhjánam (meditace nad Gítou)</title>
+    <simpara>
+      Óm, ó Bhagavad Gíto, jejímž prostřednictvím byl Ardžuna (Partha)
+      osvícen samotným Pánem Nárájanou; ó Gíto, která jsi byla
+      starobylým mudrcem Vjásou vložena do Máhábharaty, Božská matko,
+      ničitelko znovuzrozování, jež nás zahrnuješ nektarem
+      <foreignphrase>advaity</foreignphrase>; ty, která sestáváš
+      z osmnácti kapitol - o tobě, ó Bhagavad Gíto, láskyplná matko,
+      medituji.
+    </simpara>
+      <simpara>
+	Pozdravení tobě, Vjáso pronikavého intelektu s očima
+	podobajícími se okvětním listům plně rozvitého lotosového
+	květu; ó Vjáso, který jsi zapálil lampu poznání naplněnou
+	olejem Máhábharaty.
+      </simpara>
+      <simpara>
+	Pozdravení Krišnovi - Paridžátovi, neboli Stromu splněných
+	přání (Kalpataru), splniteli všech přání těm, kteří u něho
+	hledají útočiště, držiteli hůlky v jedné ruce a
+	<foreignphrase>džanamudry</foreignphrase><remark>(džňánamudry?)</remark>
+	(symbol vědění) ve druhé, dárci nektaru vydojeného z Gíty.
+      </simpara>
+      <simpara>
+	Všechny upanišady jsou jako krávy; ten, kdo je dojí, je Krišna
+	- pasáček krav. Tele je Partha a jedinci s očištěným
+	intelektem jsou poživači mléka. Mléko je svrchovaný nektar
+	Gíty.
+      </simpara>
+      <simpara>
+	Vzdávám poctu Pánu Krišnovi, učiteli světa, synu Vásudévy,
+	přemožiteli Kamsy a Chanury; Krišnovi, jenž je nejvyšší
+	blažeností Dévakí.
+      </simpara>
+      <simpara>
+	Vzdávám poctu Mádhavovi, zdroji nejvyššího blaha, jehož
+	milostí němí mluví a chromí překračují hory.
+      </simpara>
+      <simpara>
+	Vzdávám poctu Bohu, kterého Brahma, Varuna, Indra, Rudra a
+	Marutové chválí božskými chvalozpěvy ústy těch, již je i
+	s <foreignphrase>angy</foreignphrase> recitují ze sámavédy na
+	způsoby <foreignphrase>pada</foreignphrase> a
+	<foreignphrase>krama</foreignphrase>; jehož opěvují upanišady
+	viděné meditujícími jogíny myslí zcela zaujatou Bohem, kterého
+	ani zástupy <foreignphrase>dévů</foreignphrase> a
+	<foreignphrase>asurů</foreignphrase> (bohů a démonů) plně
+	nepoznaly.
+      </simpara>    
+  </preface>
+
+  <part>
+    <title>Karma-jóga</title>
+
+  <chapter>
+    <title>Ardžunova malomyslnost</title>
+    <para><phrase>Dhrtaráštra pravil:</phrase></para>
+    <simpara>
+      Pověz, ó Sandžájo, co činili mí bojechtiví synové a synové
+      Pándua shromáždění na Kurukšétře - poli náboženských dějů?
+    </simpara>
+    <para><phrase>Sandžája řekl:</phrase></para>
+    <simpara>
+      Když nyní princ Durjódhana zhlédl seřazené pánduovské vojsko,
+      přiblížil se ke svému učiteli Drónovi a oslovil ho těmito
+      slovy:
+    </simpara>
+    <simpara>Pohleď, ó pane, na mocnou armádu pánduovských synů, jíž
+    velí Drupadův syn, tvůj nadaný žák.</simpara>
+
+<simpara>Jsou zde mocní lučištníci, váleční druzi hrdinného Ardžuny a Bhímy; Jujudhana, Viráta a Drupada, velký bojovník na válečném voze.</simpara>
+
+<simpara>Také Dhrštakétu, Čekitana a chrabrý král Káší, Purudžit, Kuntibhódža a Saibja, nejlepší z mužů.</simpara>
+
+<simpara>Odvážný Judhamanju, udatný Uttamaudža, Saubhadra a Draupadiho synové - všichni jsou významnými bojovníky na válečných vozech.</simpara>
+
+<simpara>Věz, ó nejlepší z dvakrát narozených, kdo jsou naši vynikající náčelníci, velitelé mé armády. Pro tvou informaci je vyjmenuji.</simpara>
+
+<simpara>Jsou to: Tvoje ctihodnost, Bhíšma, Karna, Kripa,vítězný v boji, Ašvattama, Vikarna a také Saumadatti.</simpara>
+
+<simpara>Ještě tam jsou i jiní rekové, dobře vycvičení ve válečnictví, kteří, vyzbrojeni nejrůznějšími zbraněmi a střelami, jsou připraveni za mne položit život.</simpara>
+
+<simpara>Početná je naše armáda vedená Bhíšmou, ale skrovná je armáda protivníka pod vedením Bhímy.</simpara>
+
+<simpara>Nechť nyní každý z vás zaujme místo ve svém oddíle a na každý pád ochraňujte zejména Bhíšmu.</simpara>
+
+<simpara>Aby dodal odvahu Durjódhanovi, Bhíšma, mohutný kmet a nejstarší z rodu Kuruovců, zařval jako lev a zatroubil na svou lasturu.</simpara>
+
+<simpara>Vtom náhle zavřeštěly lastury, tympány a bubny, trubky a volské rohy. Byl to příšerný lomoz.</simpara>
+
+<simpara>Potom Mádhava a Pándava, sedící na velkolepém válečném voze se spřežením bílých ořů, s půvabem zaduli do svých božských lastur.</simpara>
+
+<simpara>Na Pančadžanju troubil Hrišikéša a na Dévattu Dhanandžája. Vrikódara hrůzných hrdinských činů troubil na svou velikou lasturu Paundru.</simpara>
+
+<simpara>Král Judišthira, syn Kuntí, troubil na Anantavidžaju; Nakula a Sahádéva na Sughošu a Manipušpaku</simpara>
+
+<simpara>a vládce Káší, zručný lučištník a Sikhandi, bojovník na válečném voze, Dhrštadjumna a Vimta a neporazitelný Satjaki,</simpara>
+
+<simpara>ó vládče země! Drupada a synové Draupadi a mocný ozbrojený syn Subhadry - ti všichni také troubili na své lastury.</simpara>
+
+<simpara>Bouřlivá vřava plnící nebe i zemi ozvěnou rozdírala srdce Dhrtaráštrových synů.</simpara>
+
+<simpara>Potom, ó vládče země, při pohledu na Dhrtaraštrova vojska seřazená k boji, který měl právě začít, Pándava, jenž měl ve svém znaku Hanumána, pozvedl luk a oslovil Krišnu těmito slovy:</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Zajeď s mým vozem mezi armády, ó Ačjuto, abych mohl spatřit zde seřazené válkychtivé muže, s nimiž musím vybojovat tuto bitvu.</simpara>
+<simpara/>
+
+<simpara>Chci poznat ty, kteří se zde houfují k boji, aby se zavděčili zle smýšlejícímu Dhrtaraštrovu synovi.</simpara><!-- 23 -->
+
+<para><phrase>Sandžája řekl:</phrase></para>
+
+<simpara>Ó Bhárato, na Gudakéšovo přání Hrišikéša postavil nejlepší vozy mezi obě armády.</simpara>
+
+<simpara>Tváří v tvář Bhíšmovi a Drónovi a všem vládcům země promluvil: <quote>Ó Partho, pohleď na všechny Kuruovce zde shromážděné.</quote></simpara>
+
+<simpara>Z toho místa Partha spatřil v obou armádách strýce z otcovy strany, dědečky, učitele, strýce z matčiny strany, bratrance, syny vnuky, přátele, tchány a dobrodince.</simpara>
+
+<simpara>Hledě na svoje příbuzné seřazené na svých místech byl naplněn svíravým soucitem a se smutkem promluvil.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Při pohledu na své příbuzné shromážděné zde s úmyslem válčit vypovídají mi mé údy službu, ó Krišno. I v ústech mi vyschlo.</simpara>
+
+<simpara>Moje tělo se třese a ježí se mi vlasy. Luk Gandiva mi padá z ruky a pálí mě kůže na celém těle.</simpara>
+
+<simpara>Nedokáži stát a mysl je v jednom víru; a navíc, Krišno, vidím nepříznivá znamení.</simpara>
+
+<simpara>Nevidím, co dobrého by mohlo vzejít z vraždy mých blízkých v boji. Ó Krišno, netoužím po vítězství, ani po říši, dokonce ani po žádných požitcích.</simpara>
+
+<simpara>K čemu nám bude říše, požitky nebo dokonce život, ó Góvindo?</simpara>
+
+<simpara>Ti, pro které se sháníme po království, radovánkách a požitcích, stojí zde na bojišti a dávají všanc své životy i majetek.</simpara>
+
+<simpara>Učitelé, otcové, synové jakož i dědové, strýcové z matčiny strany, tcháni, vnuci, švagři a další příbuzní.</simpara>
+
+<simpara>I kdybych měl být jimi zabit, nechtěl bych, ó Mádhusúdano, zabíjet je ani za cenu vlády nad třemi světy, jak potom za cenu vlády nad zemí?</simpara>
+
+<simpara>Jakou rozkoš nám může, ó Džanardáno, přinést sprovodit ze světa Dhrtaráštrovy syny? Zabitím těchto zoufalců se jen dopustíme hříchu.</simpara>
+
+<simpara>Proto bychom Dhrtaráštrovy syny, naše příbuzné, neměli zabíjet. Neboť zabijeme-li své příbuzné, jak můžeme být šťastni, ó Mádhavo?</simpara>
+
+<simpara>I když oni s rozumem zamlženým chamtivostí by nepokládali za provinění vyhlazení rodiny, ani nepovažují nepřátelství vůči přátelům za zločin.</simpara>
+
+<simpara>Proč bychom se neměli naučit před takovým hříchem couvnout, ó Džanardáno, když vidíme ve vyhlazení rodiny zlo?</simpara>
+
+<simpara>Je-li zničena rodina, vyhasnou její od pradávna uctívané zvyklosti. S přerušením posvátných obřadů je celá rodina stižena bezbožností.</simpara>
+
+<simpara>S rozmáhající se bezbožností, ó Krišno, se ženy v rodinách stávají necudné a ostatní ženy zkažené, ó Varšnéjo. Z toho pochází míšení kast.</simpara>
+
+<simpara>Takové rodiny a ničitele rodin za míšení kast vskutku čeká peklo, neboť jejich předkům jsou odepřeny obětiny a úlitby živlům.</simpara>
+
+<simpara>Věčné kastovní ctnosti a rodinné zásluhy jsou zničeny zmatením kast, zaviněným těmi, kteří ničí rodiny.</simpara>
+
+<simpara>Jak jsme slyšeli, ó Džanardáno, peklo je vpravdě dlouhodobým domovem těch, kteří přerušili své náboženské praktiky.</simpara>
+
+<simpara>Vedeni lačností po potěšení vládnout království pojali jsme želbohu úmysl dopustit se hříchu zabíjení svých soukmenovců.</simpara>
+
+<simpara>Pro mne by bylo vskutku lépe, kdyby Dhrtaráštrovi synové se zbraněmi v ruce zabili mě neozbrojeného a nekladoucího odpor.</simpara>
+
+<para><phrase>Sandžája pravil:</phrase></para>
+
+<simpara>Tak hovořil Ardžuna na bitevním poli. Přemožen lítostí usedl na sedátko svého válečného vozu a odložil luk a šípy.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty je poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou prvním pojednáním, označeným názvem ARDŽUNOVA MALOMYSLNOST. -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga poznání</title>
+    <para><phrase>Sandžája řekl:</phrase></para>
+
+<simpara>Následující slova pronesl Mádhusúdana tomu, kdo přemožen soucitem se utápěl v tísni a jehož oči byly na základě velké sklíčenosti plné slz.</simpara>
+
+<para><phrase>Milostiplný Pán pravil:</phrase></para>
+
+<simpara>Odkud se právě v této rozhodné chvíli u tebe vzala taková nemužná, do nebe volající a hanebná sklíčenost, Ardžuno?</simpara>
+
+<simpara>Ó Partho, nepoddávej se slabosti, to se k tobě nehodí. Odvrhni svou malichernou slabost srdce. Probuď se, přemožiteli nepřátel!</simpara>
+
+<para><phrase>Ardžuna odvětil:</phrase></para>
+
+<simpara>Ó ničiteli Mádhua, ničiteli nepřátel, jak mám svými šípy protiútočit na Bhíšmu a Drónu, kteří jsou hodni uctívání?</simpara>
+
+<simpara>O mnoho lepší je na tomto světě jíst chléb žebráků, než zabít tak velkodušné mistry. Kdybych je i zabil, samotná moje radost z bohatství a světských tužeb bude poskvrněna krví.</simpara>
+
+<simpara>Ať již zvítězíme my nad nimi, nebo oni nad námi - nevím, co by bylo lepší. Jsou to právě tito Dhrtaráštrovi synové, stojící teď před námi, o nichž tvrdím, že kdybychom je zabili, už by se nám nechtělo dále žít.</simpara>
+
+<simpara>Moje osobnost ztěžkla pod tíhou malomyslnosti. Mé chápání je zmatené, nevím, co je mou povinností. Snažně Tě prosím, řekni mi s konečnou platností, co je pro mne dobré. Jsem Tvůj žák, pouč mě, neboť jsem se k Tobě uchýlil.</simpara>
+
+<simpara>Nenalézám žádný lék na žal, který mi spaluje smysly, přesto, že bych mohl získat prosperitu a jednoznačnou suverenitu vlády nad zemí i dokonce nad nebešťany.</simpara>
+
+<para><phrase>Sandžája řekl:</phrase></para>
+
+<simpara>Poté, co takto oslovil Pána smyslů, Gudakéša, postrach nepřátel, prohlásil: <quote>Nebudu bojovat,</quote> načež se odmlčel.</simpara>
+
+<simpara>Potom, ó Bhárato, Hrišikéša odpověděl tomu, jenž mezi dvěma armádami propadl malomyslnosti, a přitom se zdálo, jako by se usmíval.</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Oplakáváš ty, které není třeba oplakávat, a přitom cituješ slova moudrosti. Moudří se nermoutí ani nad živými, ani nad zemřelými.</simpara>
+
+<simpara>Nikdy nebylo, že bychom Já nebo ty nebo tito vládnoucí princové neexistovali, ani nebude, že bychom někdy v budoucnosti přestali existovat.</simpara>
+
+<simpara>Stejně jako ten, jenž sídlí v těle, v tomto těle zažívá dětství, mládí a stáří, tak také přechází do těla dalšího. Zůstává stále ryzí, ničím nedotčený.</simpara>
+
+<simpara>Styk smyslů s jejich předměty, ó synu Kuntí, vytváří pocity tepla a chladu, bolesti a potěšení. Tyto pocity přicházejí a odcházejí, nejsou trvalé. Snášej je trpělivě, ó Bhárato.</simpara>
+
+<simpara>Ten, ó nejlepší z lidí, je způsobilý získat nesmrtelnost, koho toto netrápí, kdo je vyrovnaný v bolesti a radosti a je vytrvalý.</simpara>
+
+<simpara>To neskutečné neexistuje, to skutečné nikdy nepřestane existovat. Pravdu o obojím realizovali zřeci.</simpara>
+
+<simpara>Věz, že to, čím je všechno tady prostoupeno, je vpravdě nezničitelné. Nikdo nemůže přivodit zkázu toho, co je neměnné.</simpara>
+
+<simpara>Všechna těla toho, kdo v nich přebývá a kdo je věčný, nezničitelný a nezměřitelný, mají, jak řečeno, svůj konec. Proto bojuj, Bhárato!</simpara>
+
+<simpara>Ten, kdo má átmána za vraha, i ten, kdo ho považuje za zavražděného - oba jsou nevědomí. Átmán nezabíjí, ani není zabit.</simpara>
+
+<simpara>Átmán se nerodí, ani neumírá. U něho neexistuje ani začátek, ani konec bytí. Nezrozený, věčný, stálý a odvěký není zabit, když je zabito tělo.</simpara>
+
+<simpara>Kdo zná átmána jako nezničitelného, věčného, nezrozeného a neměnného, jak by mohl zabíjet, nebo zapříčinit, aby zabíjel někdo jiný, ó Partho?</simpara>
+
+<simpara>Stejně jako člověk odkládá obnošené šaty a obléká nové, vtělení odkládají vyčerpaná těla a vcházejí do nových.</simpara>
+
+<simpara>Zbraně átmána nezraní, oheň Ho neožehne, voda Ho nesmočí a vítr nevysuší.</simpara>
+
+<simpara>Toto vlastní Já je nezranitelné, nehořlavé a nedá se smočit ani vysušit. Je věčné, vše-prostupující, stálé, nehybné a nepomíjející.</simpara>
+
+<simpara>O átmánu se říká, že je neprojevený, myslí nepostižitelný a neměnný. Proto, pokud jsi Ho takto poznal, neměl by ses rmoutit.</simpara>
+
+<simpara>Ani máš-li zato, že átmán podléhá stálému zrozování a umírání, ani tehdy by ses neměl poddávat zármutku, ó mocný ve zbrani.</simpara>
+
+<simpara>Všechno, co se narodilo, podléhá jisté smrti. To, co zemřelo, se určitě narodí. Proto bys neměl naříkat nad tím, co je nevyhnutelné.</simpara>
+
+<simpara>Všechny bytosti jsou, ó Bhárato, na počátku neprojevené, pak projevené a na konci opět neprojevené. Jaký má tedy smysl se trýznit?</simpara>
+
+<simpara>Někdo vidí vlastní Já jako nádherné, druhý Ho nazývá podivuhodným, další o Něm slyšel jako o podivném a jiný, ač o Něm slyšel, neví o Něm zhola nic.</simpara>
+
+<simpara>On, jenž sídlí v tělech, je navždy nezranitelný, ó Bhárato, proto by ses neměl rmoutit pro žádnou bytost.</simpara>
+
+<simpara>Přihlédneš-li navíc ke své vlastní povinnosti, neměl bys kolísat, neboť pro <foreignphrase>kšatriju</foreignphrase> není nic vítanější než spravedlivá válka.</simpara>
+
+<simpara>Šťastni jsou <foreignphrase>kšatriové</foreignphrase>, ó Partho, jimž se nabízí takový boj, který, jimi nevyhledaný, přichází jako otevřená brána do nebe.</simpara>
+
+<simpara>Ale jestli nepůjdeš bojovat tuto spravedlivou válku, dáváš v zástavu svou povinnost i čest a dopustíš se hříchu.</simpara>
+
+<simpara>Lidé budou navždy hovořit o tvé bezectnosti. Pro člověka s dobrým jménem je hanba zajisté horší než smrt.</simpara>
+
+<simpara>Velcí bojovníci na válečných vozech se na tebe budou dívat jako na dezertéra ze strachu před bojem. Tebou, jehož si vysoce cenili, budou opovrhovat.</simpara>
+
+<simpara>I tví nepřátelé budou pomlouvat tvou sílu a hovořit o tobě nepatřičně. Co může být bolestnější než to?</simpara>
+
+<simpara>Budeš-li zabit, získáš nebe, zvítězíš-li, získáš zemi. Proto povstaň, rozhodnutý bojovat, ó synu Kuntí!</simpara>
+
+<simpara>Stav se stejně k bolesti jako k radosti, k zisku jako ke ztrátě, k vítězství jako k porážce a pusť se do boje. Tak nebudeš hřešit.</simpara>
+
+<simpara>Byl ti podán ideál poznání Sebe. Nyní si poslechni, jak to máš uskutečňovat v praxi. Takto vybaven, Partho, prolomíš pouta karmy.</simpara>
+
+<simpara>Přitom žádné úsilí nemůže přijít nazmar ani to nemůže mít žádný nepříznivý dopad. Praktikování i malé části této <foreignphrase>dharmy</foreignphrase> chrání před velkým strachem.</simpara>
+
+<simpara>Lidé s pevným úmyslem, ó potěšení Kuruovců, mohou dospět jen k jedinému rozhodnutí, zatímco rozhodování lidí s nepevným úmyslem se rozvětvuje do nekonečna.</simpara>
+
+<simpara>Nemoudří si libují v květnatých disputacích o védách a tvrdí, že nic kromě toho neexistuje.</simpara>
+
+<simpara>Jsou plni přání a za účel zrození a životního konání považují dosažení nebe. Jejich slova jsou plna popisů specifických rituálů přinášejících potěšení a vysoké postavení.</simpara>
+
+<simpara>Není však žádné zakotvení mysli pro ty, kteří okradeni o schopnost rozlišování lpí na potěšení a moci.</simpara>
+
+<simpara>Védy jmenují tři <foreignphrase>guny</foreignphrase>. Ty, Ardžuno, tři <foreignphrase>guny</foreignphrase> přesáhneš. Osvoboď se od párů protikladů, buď vždy vyrovnán, nestarej se o získání a podržení, buď soustředěn na vlastní Já.</simpara>
+
+<simpara>Pro osvíceného bráhmana jsou všechny védy stejně užitečné jako nádrž s vodou v době potopy.</simpara>
+
+<simpara>Hleď, abys plnil povinnosti, ale nečiň si nárok na jejich ovoce. Nebuď konatelem, produkujícím ovoce karmy, ale také nebuď nakloněn nečinnosti.</simpara>
+
+<simpara>Buď činný, ó Dhanandžájo, upevněn v józe, odříkej se lpění, buď vyrovnaný při úspěchu i nezdaru. Vyváženost je vskutku jóga.</simpara>
+
+<simpara>Motivovaná <foreignphrase>karma</foreignphrase>, ó Dhanandžájo, je daleko nižší než <foreignphrase>karma</foreignphrase> konaná s vyrovnanou myslí. Hledej útočiště v klidné mysli. Ti, kdož touží po výsledcích, jsou ubožáci.</simpara>
+
+<simpara>Kdo je zakotven ve vyrovnané mysli, osvobodí se v tomto životě jak od hříchu, tak od ctnosti. Proto se věnuj józe. Práce dokonale vykonaná je vskutku jóga.</simpara>
+
+<simpara>Moudří, obdaření vyrovnanou myslí, odříkající se ovoce svých činů, osvobození z pout zrozování se vpravdě ubírají do neposkvrněného stavu.</simpara>
+
+<simpara>Až tvé chápání překročí zamlžení klamem, staneš se lhostejný ke všemu, cos slyšel, i k tomu, co máš ještě uslyšet.</simpara>
+
+<simpara>Až tvůj intelekt zmítaný protichůdnými názory se ustálí v rovnovážném stavu a v něm pevně zakotví, potom se dostaneš do jógy.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Ó Kéšavo, co je známkou člověka, který dosáhl trvalé moudrosti, ponořený v samádhi? Jak takový člověk ustálený v moudrosti hovoří, jak sedí a chodí?</simpara>
+
+<para><phrase>Milostiplný Pán odpověděl:</phrase></para>
+
+<simpara>Ó Partho, když člověk opustí všechna přání srdce a je spokojen ve vlastním Já s vlastním Já, pak o něm lze říci, že je ustálen v moudrosti.</simpara>
+
+<simpara>Ten, jehož mysl není zneklidněna při protivenství, kdo netouží po štěstí, je prost náklonností, strachu a hněvu, je <foreignphrase>muni</foreignphrase>, ustálený v moudrosti.</simpara>
+
+<simpara>Kdo není nikde připoután, kdo nejásá při přijímání dobra a není skleslý při setkání se se zlem, je zakotven v moudrosti.</simpara>
+
+<simpara>Když navíc dokáže odtáhnout své smysly od smyslových předmětů jako želva zatahuje údy, je jeho moudrost upevněná.</simpara>
+
+<simpara>Předměty smyslů u zdrženlivého člověka odpadávají, ale touha po nich nemizí. Jeho touha končí až při poznání Nejvyššího.</simpara>
+
+<simpara>Vzrušené smysly, ó synu Kuntí, vášnivě unášejí mysl dokonce i moudrého člověka, který usiluje o dosažení dokonalosti.</simpara>
+
+<simpara>Jogín, jenž ovládl všechny smysly, sedí soustředěn na Mne jako na Nejvyšší cíl. Stálá je moudrost těch, kteří si podmanili smysly.</simpara>
+
+<simpara>Přemítáním o smyslových objektech se k nim člověk připoutává. S připoutaností přichází chtění a z chtění klíčí hněv.</simpara>
+
+<simpara>Hněv následuje klam, z klamu vzniká zmatená paměť, z pomatené paměti zruinovaný rozum a na zničený rozum člověk zachází.</simpara>
+
+<simpara>Avšak disciplinovaný jogín, pohybující se mezi předměty s ovládanými smysly, oproštěný od sympatií a antipatií, dojde klidu.</simpara>
+
+<simpara>V klidu se rozpustí všechen zármutek. Neboť intelekt lidí s pokojnou myslí se brzy zakotví ve stavu rovnováhy.</simpara>
+
+<simpara>V lidech s vrtkavou myslí není žádná moudrost ani schopnost meditace. Pro nemeditativní jedince není žádný mír. A jak se mohou lidé bez míru těšit ze štěstí?</simpara>
+
+<simpara>Tak jako vichr odfoukne loď na vodě, mysl poddávající se bloudícím smyslům odnáší schopnost rozlišovat.</simpara>
+
+<simpara>Proto, ó mocný ve zbrani, tomu, kdo plně odpoutal své smysly od jejich předmětů, se dostává vyváženého poznání.</simpara>
+
+<simpara>V době, která je pro všechny bytosti nocí, disciplinovaný člověk bdí, ale čas, kdy bdí všechny bytosti, je nocí pro <foreignphrase>muniho</foreignphrase>, jenž poznal átmána.</simpara>
+
+<simpara>Míru nedosáhne člověk plný přání, ale ten, v němž všechny touhy splývají stejně, jako řeky splynou s oceánem - plným a nehybným.</simpara>
+
+<simpara>Míru dosáhne ten, kdo žije bez tužeb, osvobozen od všeho chtění a prost pocitu <quote>já</quote> a <quote>mé</quote>.</simpara>
+
+<simpara>Toto, ó Partho, je stav <foreignphrase>brahma</foreignphrase>. Nikdo z těch, kteří jej dosáhli, není zmaten. Kdo v něm zakotví třeba až v hodině smrti, vejde do jednoty s <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<!-- V upanišadě Bhagavad Gity je poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou druhým pojednáním, nazvaným JÓGA POZNÁNÍ. -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga činnosti</title>
+
+    <para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Je-li podle Tvého názoru, ó Džanardáno, vědění vyšší než konání, proč mě pak, Kéšavo, ukládáš tuto hrůzyplnou činnost?</simpara>
+
+<simpara>Svými slovy mě přivádíš do rozpaků; je to, jako bys zmátl mé chápání. Řekni mi jasně, kterou cestu mám sledovat, abych dosáhl Nejvyššího.</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Hned na počátku jsem světu ustanovil dvojí cestu, ó nevinný, stezku poznání pro rozlišující a stezku práce pro činorodé.</simpara>
+
+<simpara>Člověk se nestává nečinným tím, že přestane konat, ani nedosáhne dokonalosti pouhým odříkáním.</simpara>
+
+<simpara>Nikdo nemůže ani na okamžik zůstat úplně nečinný, neboť každý je nevyhnutelně dohnán k akci <foreignphrase>gunami</foreignphrase>, zrozenými z přírody (<foreignphrase>prakrti</foreignphrase>).</simpara>
+
+<simpara>Takový pomýlený člověk, který sedí ovládaje orgány činnosti, zatímco v mysli se zabývá smyslovými předměty, je nazýván pokrytcem.</simpara>
+
+<simpara>Avšak ten, kdo nepřipoután svou myslí ovládá smysly a řídí své orgány činnosti při výkonu práce, takový člověk, ó Ardžuno, vyniká.</simpara>
+
+<simpara>Zaměstnávej se plněním svých povinností, neboť konání je vyšší než nekonání. Bez činnosti by bylo i udržování vlastního těla nemožné.</simpara>
+
+<simpara>Všechny činy nekonané jako <foreignphrase>jadžňa</foreignphrase> tě poutají ke světu. Proto, ó synu Kuntí, všechno dělej bez připoutanosti a se vší opravdovostí jen a jen jako oběť.</simpara>
+
+<simpara>Poté, co na počátku Pradžapati stvořil člověka spolu s obětí, řekl: <quote>Prostřednictvím oběti se budete rozmnožovat a oběť bude jako dojná kráva plnící vaše přání.</quote></simpara>
+
+<simpara>Oběťmi uctívejte <foreignphrase>dévy</foreignphrase> (bohy) a nechť bohové opatrují vás. Tato vzájemná láska vám přinese nejvyšší dobro.</simpara>
+
+<simpara><foreignphrase>Dévové</foreignphrase> uctívaní obětí vás obdaří radostmi, které si přejete. Kdo si užívá jejich darů aniž jim něco vrací, je vskutku zlodějem.</simpara>
+
+<simpara>Dobří lidé živící se zbytky z oběti jsou osvobozeni od všech hříchů, ale hříšní, kteří si vaří jen pro sebe, opravdu pojídají hřích.</simpara>
+
+<simpara>Z jídla vznikají bytosti, jídlo vyrůstá z deště. Déšť přichází z <foreignphrase>jadžni</foreignphrase> (oběť). <foreignphrase>Jadžňa</foreignphrase> se rodí z karmy.</simpara>
+
+<simpara>Věz, že <foreignphrase>karma</foreignphrase> vznikla z véd a védy z Nesmrtelného. Samotným středem všeprostupující védy je proto <foreignphrase>jadžňa</foreignphrase>.</simpara>
+
+<simpara>Kdo na zemi nenásleduje tento koloběh, kdo žije hříšně v radovánkách smyslů, ten nadarmo žil, ó Partho.</simpara>
+
+<simpara>Na druhé straně člověk, který se raduje z Já, je spokojen s Já a zakotven v Já, je zproštěn jakékoli povinné služby.</simpara>
+
+<simpara>Pro něho už na tomto světě nezbývá nic, čeho by měl jakoukoli činností dosáhnout; nic neztrácí tím, že nějakou činnost nevykoná, ani není na nikom pro cokoli závislý.</simpara>
+
+<simpara>Proto stále vykonávej svou povinnou službu bez připoutanosti, neboť plněním svých povinností bez připoutanosti člověk vskutku dosáhne Nejvyššího.</simpara>
+
+<simpara>Džanaka i jiní vpravdě dosáhli dokonalosti skrze činnost. I s přihlédnutím k vedení ostatních lidí bys měl být činný.</simpara>
+
+<simpara>Cokoli dělá významný člověk, ostatní ho následují; následují jeho příklad.</simpara>
+
+<simpara>Ve všech třech světech, Partho, není nic, co jsem Já neučinil, a nic, čeho lze dosáhnout, nezůstává nedosaženo; a přece jsem neustále činný.</simpara>
+
+<simpara>Kdybych vytrvale nepracoval, lidé by Mě ve všem následovali.</simpara>
+
+<simpara>Kdybych ustal v činnosti, tyto světy by zahynuly. Byl bych příčinou zmatení druhů a zničení bytostí.</simpara>
+
+<simpara>Stejně jako neosvícení lidé konají, připoutání ke svým činům, tak by měli osvícení dělat vše bez připoutanosti s přáním vést zástupy následovatelů.</simpara>
+
+<simpara>Nechť moudrý člověk neznepokojuje mysl nevědomých, kteří se drží cesty karmy. Svým vytrvalým a přesným konáním ať je pro ostatní v jejich aktivitách stimulem.</simpara>
+
+<simpara>Všechnu karmu vykonávají <foreignphrase>guny</foreignphrase> přírody. Člověk s chápáním zastřeným egoismem si myslí: <quote>já jsem tím, kdo koná.</quote></simpara>
+
+<simpara>Ale kdo intuitivně poznal podstatu <foreignphrase>gun</foreignphrase> a karmy, ó mocný ve zbrani, ten ví, že <foreignphrase>guny</foreignphrase> v podobě smyslů pouze setrvávají s <foreignphrase>gunami</foreignphrase> ve formě předmětů, a nenechává se zaplést.</simpara>
+
+<simpara>Ti, kteří se <foreignphrase>gunami</foreignphrase> <foreignphrase>prakrti</foreignphrase> dali oklamat, připoutávají se k funkci <foreignphrase>gun</foreignphrase>. Člověk, který dosáhl dokonalého poznání, by neměl znepokojovat průměrné lidi, jejichž vědění není dokonalé.</simpara>
+
+<simpara>Odevzdej Mi všechny činy s myšlenkami soustředěnými na Já, osvobozen od nadějí a sobectví a vyléčen z horečky mysli pusť se do boje.</simpara>
+
+<simpara>I ti, kteří se vždy drží Mého učení, jsou plni víry (<foreignphrase>šraddhá</foreignphrase>) a oproštěni od hnidopišství, jsou osvobozeni od svých činů.</simpara>
+
+<simpara>Ale ti, kteří do Mého učení šťourají, neřídí se jím, mají klamné vědění a nemají žádnou rozlišovací schopnost, věz, že je čeká záhuba.</simpara>
+
+<simpara>I moudrý člověk se chová podle své přirozenosti. Tvorové se chovají podle své přirozenosti. Co zmůže její potlačování?</simpara>
+
+<simpara>Přitažlivost a odpudivost smyslů vůči jejich dotyčným objektům je přirozená. Nechť se nikdo nedostává pod jejich nadvládu. Jsou to jeho skuteční nepřátelé.</simpara>
+
+<simpara>Vlastní <foreignphrase>dharma</foreignphrase>, třeba nedokonalá, je lepší než sebelépe splněná <foreignphrase>dharma</foreignphrase> druhého. Lepší je smrt ve vlastní <foreignphrase>dharmě</foreignphrase>. <foreignphrase>Dharma</foreignphrase> druhých je plná strachu.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Co člověka zavléká do hříchu, třeba i proti jeho vůli, ó Varšnéjo? Co ho k tomu tlačí tak velikou silou?</simpara>
+
+<para><phrase>Milostiplný Pán odpověděl:</phrase></para>
+
+<simpara>Je to chtění, toto zlo zrozené z radžóguny, které vše pohltí a je skrz na skrz hříšné. Poznej, že to je tvůj pozemský nepřítel.</simpara>
+
+<simpara>Stejně jako je oheň zahalen kouřem, zrcadlo pokryto prachem a embryo obklopeno dělohou <quote>To</quote> je zahaleno <quote>oním</quote>.</simpara>
+
+<simpara>Poznání je překryto tímto nenasytným ohněm chtění, jež je trvalým nepřítelem moudrých, ó synu Kuntí.</simpara>
+
+<simpara>Říká se, že sídlí ve smyslech, v mysli a intelektu a jejich pomocí člověka klame tím, že zastírá jeho moudrost.</simpara>
+
+<simpara>Proto, ó vynikající mezi Bháraty, ovládaje své smysly zabij to hříšné chtění ničící poznání a bránící v realizaci.</simpara>
+
+<simpara>Říká se, že smysly jsou vyšší než tělo, mysl je vyšší než smysly, intelekt je výš než mysl, a to, co je výš než intelekt, je átmán.</simpara>
+
+<simpara>S plným vědomím, že átmán je nad intelektem, a ovládaje sebe pomocí vyššího Já, zabij nepřítele v podobě chtění, které se velmi těžko přemáhá.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je třetím pojednáním, nazvaným JÓGA ČINNOSTI. -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga odříkání se činnosti při dosaženém poznání</title>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Tuto nesmrtelnou jógu jsem vyložil Vivašvatovi, Vivašvat ji vykládal Manuovi a Manu Ikšvakovi.</simpara>
+
+<simpara>Takto byla postupně předávána, takže ji znali ctihodní mudrci. V průběhu dlouhých věků tato jóga ve světě upadala, ó vyhladiteli nepřátel.</simpara>
+
+<simpara>Tutéž starobylou jógu jsi dnes vyslechl ode Mne, neboť tys Můj oddaný a přítel a toto tajemství je skutečně nejvyšší.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Ty ses narodil později než Vivašvat, jak tomu mám rozumět, žes mu na počátku vykládal jógu?</simpara>
+
+<para><phrase>Milostiplný Pán odvětil:</phrase></para>
+
+<simpara>Mnohá jsou zrození, která jme ty a Já podstoupili, Ardžuno. Já je všechny znám, zatímco ty, Parantapo, je neznáš.</simpara>
+
+<simpara>Přesto, že jsem nezrozený, nesmrtelný a Pánem tvorstva, podrobuji si <foreignphrase>prakrti</foreignphrase> a pomocí své vlastní máji vstupuji v bytí.</simpara>
+
+<simpara>Kdykoli upadá <foreignphrase>dharma</foreignphrase> a narůstá <foreignphrase>adharma</foreignphrase>, Já se vtěluji, ó Bhárato.</simpara>
+
+<simpara>Pro ochranu dobrých, zničení zlých a obnovu <foreignphrase>dharmy</foreignphrase> se rodím vždy znovu věk od věku.</simpara>
+
+<simpara>Ten, kdo takto v pravém světle poznal Mé božské zrození a Mou činnost, po odložení své tělesné schránky se znovu nerodí, ale přichází, Ardžuno, ke Mně.</simpara>
+
+<simpara>Prosti vášně, strachu a zloby, naplněni Mnou, nalézající útočiště ve Mně, očištěni pokáním v ohni poznání mnozí vešli v Mé bytí.</simpara>
+
+<simpara>Jakoukoli formou se lidé se Mnou ztotožňují, toutéž formou jim plním jejich přání. Lidé, ó Partho, ke Mně přicházejí po všech Mých cestách.</simpara>
+
+<simpara>Toužíce po úspěchu svých pozemských aktivit uctívají bohy, neboť v tomto světě lidí se úspěch činnosti dostavuje rychle.</simpara>
+
+<simpara>Systém čtyř kast jsem ustanovil Já podle různého rozložení <foreignphrase>gun</foreignphrase> i karmy. I když jsem toho původcem, věz, že jsem nečinný a neměnný.</simpara>
+
+<simpara>Ani se Mě činy nedotýkají, ani si nežádám jejich ovoce. Toho, jenž Mě takto poznal, činy nepoutají.</simpara>
+
+<simpara>S tímto poznáním konali i starodávní hledači pravdy, usilující o osvobození. Proto i ty čiň stejně jako oni za starých časů.</simpara>
+
+<simpara>I mudrci jsou na rozpacích, co je činnost a co nečinnost. Proto ti povím, co je činnost a s tímto poznáním budeš osvobozen od zla.</simpara>
+
+<simpara>Je třeba rozlišovat činnost, zakázanou činnost a nečinnost, neboť cesty karmy jsou nevyzpytatelné.</simpara>
+
+<simpara>Ten, kdo vidí nečinnost v činnosti a činnost v nečinnosti je moudrý mezi muži, je jogínem a všeho dosáhne.</simpara>
+
+<simpara>Toho, jehož činnost je osvobozená od očekávání a touhy po výsledcích a jehož činy jsou spalovány ohněm poznání, mudrci nazývají moudrým.</simpara>
+
+<simpara>Po oproštění se od připoutanosti k ovoci činů člověk, který je stále spokojený a na ničem není závislý, i když se zabývá karmou, je ve skutečnosti nečinný.</simpara>
+
+<simpara>V nic nedoufaje, ovládaje svou mysl a sebe, poté, co se vzdal všeho majetku, koná karmu jen tělem a nedopouští se žádného hříchu.</simpara>
+
+<simpara>Člověk spokojený s tím, co se mu dostává bez úsilí, osvobozen od párů protikladů, prost závisti, vyrovnaný při zdaru i nezdaru, ač je činný, není vázán.</simpara>
+
+<simpara>Nepřipoutanému, osvobozenému, jehož mysl je pohroužena v poznání, kdo práci vykonává jen jako oběť, tomu se veškerá <foreignphrase>karma</foreignphrase> rozpustí a zmizí.</simpara>
+
+<simpara>Rituální omývání je <foreignphrase>brahma</foreignphrase>, vyčeřené máslo je <foreignphrase>brahma</foreignphrase>; <foreignphrase>brahma</foreignphrase> nabízí tyto věci ohni, jenž je také <foreignphrase>brahma</foreignphrase>. K <foreignphrase>brahma</foreignphrase> se vpravdě ubírá ten, kdo ve svých činech poznává jen <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>Někteří jogíni obětují jen <foreignphrase>dévům</foreignphrase>, zatímco jiní nabízejí své jáství jako oběť vlastního Já v ohni <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>Někteří nabízejí sluch a jiné smysly jako oběť v ohni zdrženlivosti, zatímco druzí nabízejí zvuk a jiné smyslové předměty ohni smyslů.</simpara>
+
+<simpara>Jiní, podněcování poznáním, zase nabízejí veškerou činnost smyslů a funkce životní energie jako oběť v ohni sebeovládání.</simpara>
+
+<simpara>A další nabízejí jako oběť bohatství, odříkání a jógu, zatímco ještě další v rámci askeze a svatých slibů nabízejí jako oběť svaté učení a poznání.</simpara>
+
+<simpara>Jsou lidé nabízející při vdechování jako oběť své výdechy, a svoje vdechy při vydechování, takže zadržují proud vydechovaného a vdechovaného vzduchu, plně zaujati usměrňováním životní energie.</simpara>
+
+<simpara>Někteří zase, navyklí na řízenou stravu, nabízejí pranám svoje zažívání. Všichni jsou znalci <foreignphrase>jadžni</foreignphrase> a <foreignphrase>jadžňa</foreignphrase> vymazala jejich hříchy.</simpara>
+
+<simpara>Ti, kteří jedí zbytky z oběti - nektar <foreignphrase>jadžni</foreignphrase> - jdou k <foreignphrase>brahma</foreignphrase>. Tento svět není pro lidi, kteří neobětují, jak by potom pro ně mohl být svět příští, ó nejlepší z Kuruovců?</simpara>
+
+<simpara>Různé <foreignphrase>jadžni</foreignphrase>, jako jsou tyto, jsou vystaveny ve skladišti véd. Věz, že všechny jsou zrozeny z karmy; s tímto poznáním budeš svobodný.</simpara>
+
+<simpara>Obětovat poznání, ó spalovateli nepřátel, je vyšší než obětovat majetek. Veškerá <foreignphrase>karma</foreignphrase> ve své úplnosti vrcholí v poznání, ó Partho.</simpara>
+
+<simpara>Usiluj o osvícení klaněním se, dotazováním a službou. Moudří, kteří zří pravdu, tě poučí.</simpara>
+
+<simpara>Po tomto poznání, ó Pándavo, již neupadneš v podobný zmatek. Díky tomuto poznání uvidíš celé stvoření v sobě i ve Mně.</simpara>
+
+<simpara>I kdybys byl nejhříšnějším z hříšníků, přes všechny své hříchy přepluješ na pramici poznání.</simpara>
+
+<simpara>Stejně jako žhnoucí oheň spálí dříví na popel, oheň poznání spaluje na popel karmu.</simpara>
+
+<simpara>Vpravdě na tomto světě není lepšího očistného prostředku, než je poznání. Tomu, kdo se zdokonalil v józe, toto uvědomění ve svém čase svitne v jeho vlastním srdci.</simpara>
+
+<simpara>Člověk s vírou (<foreignphrase>šraddhá</foreignphrase>) a oddaností, jenž je pánem svých smyslů, obdrží toto poznání. Poté, co ho získal, vchází rovnou do Nejvyššího míru.</simpara>
+
+<simpara>Nevědomý, nevěřící, pochybující o sobě odchází do záhuby. Pochybujícímu já se nedostává ani tohoto světa, ani světa příštího, ani štěstí.</simpara>
+
+<simpara>Kdo se zhostil své práce na józe, jehož pochyby byly rozťaty mečem poznání, ó Dhanandžájo, toho činy nepoutají, neboť je zakotven v Já.</simpara>
+
+<simpara>Proto mečem poznání rozetni tyto z nevědomosti zrozené pochybnosti o vlastním Já, které přebývají v tvém srdci. Upevni se v józe a povstaň, Bhárato.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání brahma - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je čtvrtým pojednáním, nazvaným JÓGA ODŘÍKÁNÍ SE ČINNOSTI PŘI DOSAŽENÉM POZNÁNÍ. -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga meditace</title>
+    
+    <para><phrase>Ardžuna promluvil:</phrase></para>
+
+<simpara>Krišno, doporučuješ odříkat se činnosti, a pak zase její konání. Která z těchto dvou cest je lepší? Řekni mi to s konečnou platností.</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Jak odříkání se činnosti, tak její konání vedou k osvobození. Z obou možností je lepší konat než činnosti se zříkat.</simpara>
+
+<simpara>Jako opravdový <foreignphrase>sanjásin</foreignphrase> (ten, který se odřekl světa) může být označen člověk bez nenávisti a přání, oproštěný od párů protikladů. Jeho vysvobození z pout je snadné.</simpara>
+
+<simpara>Jen děti, nikoli moudří dospělí, hovoří o rozdílu mezi poznáním a konáním. Ten, kdo je skutečně zakotven v jednom z nich, obdrží ovoce z obou.</simpara>
+
+<simpara>Stejný stav dosažený <foreignphrase>džňáním</foreignphrase> je dosažený i karmajogínem. Ten, který vidí obojí jako jedno a totéž, ten vidí.</simpara>
+
+<simpara>Sanjásy, ó mocný ve zbrani, je těžké dosáhnout bez karmajógy; člověk oddaný meditaci a očištěný karmajógou rychle dosáhne <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>S myslí očištěnou karmajógou, s disciplinovaným vlastním já a ovládanými smysly člověk, který si uvědomuje své vlastní já jako Já společné ve všech bytostech, koná, aniž se ho to dotýká.</simpara>
+
+<remark>Překlad osmého verše v originálu chybí.</remark>
+
+<simpara>Moudrý, soustředěný ve vlastním Já, by si měl myslet: <quote> já nedělám vůbec nic</quote>. I když vidí, slyší, dotýká se, cítí, jí, chodí, spí, dýchá, hovoří, vyprazdňuje, zadržuje, otevírá a zavírá oči, měl by se pevně držet myšlenky, že jsou to smysly, které se pohybují mezi smyslovými objekty.</simpara>
+
+<simpara>Kdo koná bez připoutanosti a každý čin věnuje <foreignphrase>brahma</foreignphrase>, je neposkvrněn hříchem stejně jako list lotosu není smáčen vodou.</simpara>
+
+<simpara>Jogín oproštěný od připoutanosti vykonává práci pouze tělem, myslí, intelektem a smysly jedině proto, aby očišťoval své já.</simpara>
+
+<simpara>Když se jogín vzdá ovoce svých činů, dosáhne míru pramenícího z neochvějnosti. Člověk nepraktikující jógu, hnaný chtěním, je vázán připoutaností k ovoci činů.</simpara>
+
+<simpara>Po vzdání se všech činů sebeovládající obyvatel šťastně spočívá ve městě s devíti branami, aniž koná nebo zavdává příčinu ke konání.</simpara>
+
+<simpara>Pán nestvořil pro svět ani zaměstnání, ani činnost, ani se nespojuje s ovocem činů. To všechno dělá příroda.</simpara>
+
+<simpara>Všemohoucí si u nikoho nevšímá ani zásluh, ani provinění; smrtelníci jsou takto klamání, neboť lidské poznání je zahaleno nevědomostí.</simpara>
+
+<simpara>Poznání svítící jako slunce odhaluje Nejvyššího u těch, u nichž byla nevědomost odstraněna poznáním Sebe.</simpara>
+
+<simpara>Ti, již myslí na To, splynou s Tím, jsou v Tom zakotveni a majíce To za svůj cíl, dosáhnou, že se již nevracejí, neboť poznáním byly všechny skvrny vymazány.</simpara>
+
+<simpara>Ti, kteří poznali, pohlížejí stejně na bráhmana, plného učenosti a pokory, jako na krávu, slona, psa nebo vyvržence.</simpara>
+
+<simpara>Přechodnou existenci mohou překročit i zde jedinci, jejichž mysl spočívá na rovnosti. <foreignphrase>Brahma</foreignphrase> je bez kazu a ve všech stejné; proto jsou ustáleni v <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>Zakotven v <foreignphrase>brahma</foreignphrase> s upevněným poznáním, bez klamu, se ten, kdo poznal <foreignphrase>brahma</foreignphrase> neraduje, když ho potká něco příjemného, ani netruchlí nad nepříjemným.</simpara>
+
+<simpara>Po odpoutání se od vnějších kontaktů realizuje blaženost ve vlastním Já. Oddaný meditaci o <foreignphrase>brahma</foreignphrase> zažívá nepomíjející blaženost.</simpara>
+
+<simpara>Rozkoše rodící se z kontaktů jsou skutečně lůnem bolesti. Mají svůj počátek i konec, ó synu Kuntí. Žádný moudrý člověk se z nich neraduje.</simpara>
+
+<simpara>Ten, kdo dokáže odolat popudu chtění a zloby dokonce zde, ještě předtím, než opustí tělo, je jogínem, je šťastným člověkem.</simpara>
+
+<simpara>Ten, jehož štěstí je v nitru a jehož světlo je jen v nitru, takový jogín se stane <foreignphrase>brahma</foreignphrase> a získá blaženost <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>S vymazanými hříchy, odstraněnými pochybnostmi (dualitami), s ovládnutou myslí a radujíce se z blaha všech bytostí dosahují <foreignphrase>rišiové</foreignphrase> blaženosti <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>Blaženost <foreignphrase>brahma</foreignphrase> je zde i na onom světě pro <foreignphrase>sanjásiny</foreignphrase>, kteří se oprostili od žádosti a hněvu, ztišili mysl a realizovali vlastní Já. </simpara>
+
+<simpara>Mudrc, který se odpoutal od vnějších předmětů, svůj zrak upírá mezi obočí, při vdechu a výdechu vyrovnává vzduch proudící nosními dírkami, který ovládl smysly, mysl a intelekt a jedině usiluje o osvobození, který se oprostil od chtění, strachu a hněvu, je vpravdě osvobozen.</simpara>
+
+<simpara>Poté, co Mě poznal jako Pána obětí a odříkání, jako vládce nad všemi světy a jako Přítele všech tvorů, dosáhne míru.</simpara>
+<simpara/>
+
+  </chapter>
+
+  <chapter>
+    <title>Jóga nepomíjejícího <foreignphrase>brahma</foreignphrase></title>
+
+<para><phrase>Milostiplný Pán pravil:</phrase></para>
+
+<simpara>Kdo plní své povinnosti bez očekávání plodů činů, je <foreignphrase>sanjásin</foreignphrase>, je jogín, nikoli ten, kdo je bez svatého ohně a obřadů.</simpara>
+
+<simpara>Věz, Pándavo, že jóga je to, co se nazývá <foreignphrase>sanjásou</foreignphrase>, neboť nikdo se nestane jogínem bez odevzdání své vůle (<foreignphrase>sankalpa</foreignphrase><footnote><simpara>Výraz <foreignphrase>sankalpa</foreignphrase> má několik významů: vůle, rozhodnutí, předsevzetí, úmysl, účel a jiné.</simpara></footnote>).</simpara>
+
+<simpara>Říká se, že prostředkem, jímž muni může dosáhnout jógy, je <foreignphrase>karma</foreignphrase> a po jejím dosažení to je čistota a vyrovnanost.</simpara>
+
+<simpara>Jógy dosáhne člověk teprve tehdy, když po odevzdání všech přání se už nepřipoutává k předmětům smyslů a k činnostem.</simpara>
+
+<simpara>Nechť se člověk povznese přičiněním vlastního já. Nechť se nesnižuje, neboť on sám je svým přítelem a sám je svým nepřítelem.</simpara>
+
+<simpara>Kdo v sobě přemohl nižší já svým božským Já, tomu je jeho vlastní já přítelem, ale kdo své jáství nepotlačil, tomu je vlastní já nepřítelem.</simpara>
+
+<simpara>Nejvyšší Já disciplinovaného člověka je stálé v zimě i vedru, v radosti a bolesti i ve cti a hanbě.</simpara>
+
+<simpara>Takový jogín je stálý, který je spokojen s poznáním a moudrostí, je neochvějný, ovládl smysly a nevidí žádný rozdíl mezi hroudou země, kamenem a kusem zlata.</simpara>
+
+<simpara>Nejvýše stojí ten, kdo si váží stejně přátel, druhů, nepřátel, neutrálních osob, rozhodčích hlásajících pravdu, osob hodných nenávisti, příbuzných, světců i hříšníků.</simpara>
+
+<simpara>Jogín by se měl stále snažit mít soustředěnou mysl a poté, co si podrobil mysl a tělo, a zbavil se přání a majetku, žít sám na samotě.</simpara>
+
+<simpara>Na čistém místě by si měl upravit pevné sedátko, ne příliš vysoké ani nízké, na ně rozprostřít trávu <foreignphrase>kusa</foreignphrase> a přikrýt ji napřed jelení kůží a nakonec kusem látky.</simpara>
+
+<simpara>Sedě na svém sedátku s jednobodově soustředěnou myslí, drže na uzdě své myšlenky i smysly, má cvičit jógu pro svoji očistu.</simpara>
+
+<simpara>Nechť drží své tělo v klidu, hlavu a krk ve vzpřímené poloze a dívá se na špičku svého nosu, aniž se ohlíží jinam.</simpara>
+
+<simpara>Jasný a prost strachu, pevný ve slibu čistoty jako brahmačárin, se ztišenou myslí by měl sedět v józe a myslet na Mne se zřetelem upřeným jedině na Mne.</simpara>
+
+<simpara>Pokud jogín se ztišenou myslí takto vytrvá, získá mír spočívající ve Mně a vrcholící v nirváně.</simpara>
+
+<simpara>Jóga není možná pro ty, kteří příliš mnoho jedí, stejně jako pro ty, kteří jsou v jídle příliš zdrženliví. Ani, Ardžuno, není pro ty, kteří příliš mnoho nebo příliš málo spí.</simpara>
+
+<simpara>Pro ty, již jsou střídmí v jídle i rekreaci, mírní v aktivitě, spořádaní ve spánku i bdění, se jóga stává ničitelkou bolesti.</simpara>
+
+<simpara>Když disciplinovaná mysl spočívá jedině ve vlastním Já, oproštěná od touhy po předmětech, pak lze o takovém člověku říci, že je upevněn v józe.</simpara>
+
+<simpara><quote>Tak, jako lampa nebliká v bezvětří</quote> - to je přirovnání používané pro disciplinovanou mysl jogína, cvičícího se v soustředění na vlastní Já.</simpara>
+
+<simpara>Když mysl disciplinovaná cvičením jógy dosáhne vyrovnanosti a člověk svým malým já uzří své velké Já, potom je ve vlastním Já spokojený.</simpara>
+
+<simpara>Když jednou pocítí tu nejvyšší blaženost, kterou vnímá inteligencí a která překračuje smysly, potom je-li v ní upevněný, nikdy se už nevzdálí od Reality.</simpara>
+
+<simpara>Když ji získal, myslí si, že nad ní většího zisku není. Pokud se upevní v tomto vědomí, neotřese jím ani nejtěžší soužení.</simpara>
+
+<simpara>Toto odpojení od bolesti nazýváme jógou, kterou je třeba cvičit s odhodlaností a nerozptylovanou myslí.</simpara>
+
+<simpara>Opouštěje bez výhrady všechna přání zrozená z vůle (<foreignphrase>sankalpa</foreignphrase>) a prostřednictvím mysli ohrazuje ze všech stran smysly, s intelektem pevně ustáleným nechť jogín pozvolna, krok za krokem, dosáhne vyrovnanosti. S myslí upřenou na vlastní Já ať na nic jiného nemyslí.</simpara>
+<simpara/>
+
+<simpara>Kamkoli z nějakého důvodu těkavá a nestálá mysl odběhne, tam ať jí jogín nasadí uzdu a podrobí ji vlastnímu Já.</simpara>
+
+<simpara>Nejvyšší blaženost zajisté přichází jogínovi s pokojnou myslí a utišenými vášněmi, který se sjednotil s <foreignphrase>brahma</foreignphrase> a je bez hříchů.</simpara>
+
+<simpara>Pokud jogín bez hříchů bude trvale takto zaměstnávat mysl, snadno dosáhne věčné blaženosti pramenící z kontaktu s <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>S myslí harmonizovanou jógou vidí sebe ve všech bytostech a všechny bytosti v sobě. Ve všech vidí jedno a totéž.</simpara>
+
+<simpara>Ten, kdo Mě vidí všude a všechny vidí ve Mně, nikdy se Mi neztratí, ani Já se neztratím jemu.</simpara>
+
+<simpara>Ten, kdo ustálen v Jednotě uctívá Mě přebývajícího ve všech bytostech, takový jogín žije ve Mně, ať žije jakýmkoli způsobem.</simpara>
+
+<simpara>Ten jogín, Ardžuno, je považován za nejlepšího, který posuzuje radost a bolest kdekoli jinde stejným měřítkem, jako by se týkaly jeho.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>V této józe vyrovnanosti mysli, kterou Ty, Mádhusúdano, učíš, nevidím pro samý neklid žádnou možnost, jak se v ní ustálit.</simpara>
+
+<simpara>Mysl, ó Krišno, je vskutku nepokojná, bouřlivá, silná a tvrdošíjná. Mám zato, že ovládat ji je stejně těžké jako ovládnout vítr.</simpara>
+
+<para><phrase>Milostiplný Pán pravil:</phrase></para>
+
+<simpara>O tom není pochyb, ó mocně vyzbrojený, že je mysl neklidná a těžko ovladatelná, ale cvičením a odpoutáním ji lze ovládnout, ó synu Kuntí.</simpara>
+
+<simpara>Přiznávám, že pro člověka, který se neumí ovládat, je obtížné dosáhnout jógy, ale je dosažitelná pro toho, kdo se ovládá a kdo správným způsobem usiluje.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Člověk, který se nedokáže ovládnout, jehož mysl od jógy odbíhá, byť by měl víru, k jakému spěje konci, ó Krišno, když se mu nepodařilo zdokonalit se v józe?</simpara>
+
+<simpara>Když nezvládl ani jednu z obou podmínek a odpadl od jógy, nezajde jako roztržený mrak bez opory, aniž se na cestě k <foreignphrase>brahma</foreignphrase> zbavil klamu, ó Mocný ve zbrani?</simpara>
+
+<simpara>Kdybys mi, Krišno, ráčil dokonale rozptýlit tuto moji pochybnost, neboť nikdo jiný než Ty mi ji odstranit nemůže.</simpara>
+
+<para><phrase>Milostiplný Pán odpověděl:</phrase></para>
+
+<simpara>Ó Partho, nečeká ho zánik ani na tomto, ani v příštím světě, neboť kdo činí dobro, tomu se nikdy nepřihodí nic zlého, ó synu.</simpara>
+
+<simpara>Ten, který odpadne od jógy, se dostává do světů spravedlivých a poté, co si tam odžil nespočet let, narodí se znovu v čisté a bohaté rodině.</simpara>
+
+<simpara>Anebo se narodí dokonce v rodině moudrých jogínů. Dosáhnout takového zrození na tomto světě je vskutku velmi obtížné. </simpara>
+
+<simpara>Tam pak znovu získá poznání, kterého nabyl v minulém světě, a bude intenzivněji než kdy dříve usilovat o dokonalost, ó radosti Kuruovců.</simpara>
+
+<simpara>To, co dříve praktikoval, ho povede dál, i kdyby sám k tomu nejevil žádný sklon. I ten, který si jen přeje o józe se dozvědět, vystoupí výše než člověk vykonávající védské obřady.</simpara>
+
+<simpara>Jogín neúnavně usilující, očištěný od hříchů, zdokonalený v mnohých zrozeních dosáhne Nejvyššího cíle.</simpara>
+
+<simpara>Jogín je ceněný víc než asketa a dokonce i víc, než člověk s vědomostmi. Také je výš než vykonavatelé rituálů. Proto, Ardžuno, buď jogínem.</simpara>
+
+<simpara>Ze všech jogínů považuji za nejzbožnějšího toho, který s vírou uctívá Mě se svým nejniternějším já ponořeným do Mne.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Krišnou a Ardžunou je šestým pojednáním, nazvaným JÓGA MEDITACE. -->
+  </chapter>
+  </part>
+
+  <part>
+    <title>Bhakti-jóga</title>
+
+  <chapter>
+    <title>Jóga poznání a realizace</title>
+    
+    <para><phrase>Milostivý Pán pravil:</phrase></para>
+
+    <simpara>
+      Vyslechni, ó Partho, jak s myslí přilnutou ke Mně, hledaje
+      útočiště u Mne a praktikuje jógu mne nepochybně plně
+      poznáš.
+    </simpara>
+
+<simpara>Naučím tě tomuto plnému poznání spolu i s realizací, po poznání čehož tady už nezbývá nic, co by se mělo poznat.</simpara>
+
+<simpara>Mezi tisíci jedinci sotva jeden usiluje o dokonalost a z těch, kteří usilují a dosahují, sotva jeden jediný Mě vpravdě poznal.</simpara>
+
+<simpara>Země, voda, oheň, vzduch, éter, mysl, intelekt a egoismus - to je Má <foreignphrase>prakrti</foreignphrase> rozdělená na osm součástí.</simpara>
+
+<simpara>To je Má nižší <foreignphrase>prakrti</foreignphrase>, ale věz, ó mocný ve zbroji, že se od toho liší Má vyšší <foreignphrase>prakrti</foreignphrase> - životní princip, jímž je tento vesmír udržován.</simpara>
+
+<simpara>Věz, že tyto dvě části jsou lůnem všech tvorů. Já jsem původce vzniku i rozpuštění celého vesmíru.</simpara>
+
+<simpara>Není absolutně nic vyššího, než jsem Já, ó Dhanandžájo. Toto všechno je na Mně navlečené jako korále z drahokamů na šňůrce.</simpara>
+
+<simpara>Jsem vlhkost vody, ó synu Kuntí, jsem záře měsíce a slunce, jsem slabika ÓM ve všech védách, jsem zvuk v éteru a mužnost v mužích.</simpara>
+
+<simpara>Jsem sladká vůně v zemi a zářivé světlo v ohni, jsem život ve všech bytostech a přísnost asketů.</simpara>
+
+<simpara>Poznej Mě, Partho, jako věčné semeno všech tvorů. Jsem inteligencí inteligentních a skvělostí skvělých.</simpara>
+
+<simpara>Jsem silou silných oproštěných od chtění a vášní. V bytostech jsem chtění neodporující <foreignphrase>dharmě</foreignphrase>, ó nejvyšší z Bháratijců.</simpara>
+
+<simpara>A bytosti, jež jsou ze <foreignphrase>sattvy</foreignphrase>, <foreignphrase>radžasu</foreignphrase> a <foreignphrase>tamasu</foreignphrase>, věz, že všechny pocházejí ze Mne. Přesto Já nejsem v nich, ony jsou ve Mně.</simpara>
+
+<simpara>Tento svět, klamán <foreignphrase>gunami</foreignphrase> - trojím uspořádáním <foreignphrase>prakrti</foreignphrase> - Mě nezná, neboť Já jsem nad <foreignphrase>gunami</foreignphrase> a neměnný.</simpara>
+
+<simpara>Skutečně je těžké překonat tuto Moji božskou iluzi sestávající z <foreignphrase>gun</foreignphrase>, ale ti, kteří se uchylují ke Mně jako k jedinému útočišti, ji překročí.</simpara>
+
+<simpara>Hříšníci, ti, kteří žijí v klamu, nejnižší z lidí, jež mája obrala o schopnost rozlišovat a kteří následují cestu démonů (<foreignphrase>asura</foreignphrase>), se ke Mně neuchylují.</simpara>
+
+<simpara>Čtyři druhy ctnostných lidí Mě uctívají, Ardžuno: člověk v nouzi, člověk hledající poznání, toužící po bohatství, a naplněný moudrostí, ó nejlepší z Bháratijců.</simpara>
+
+<simpara>Z nich vyniká ten, kdo je moudrý, vždy pevný a oddaný Jedinému, neboť moudrému jsem Já nejdražší a on je nejdražší Mně.</simpara>
+
+<simpara>Všichni jsou vskutku vzácní, ale moudrého považuji za sama Sebe. Neboť s upevněnou myslí je zakotven jedině ve Mně jako ve svém Nejvyšším cíli.</simpara>
+
+<simpara>Na konci mnohých životů se moudrý člověk uchýlí ke Mně, neboť si uvědomí, že Vásudéva je vše, co jest. Taková velká duše je vskutku vzácná.</simpara>
+
+<simpara>Avšak lidé, jejichž rozlišovací schopnost se dostala na scestí vinou všelijakých přání, odcházejí prostřednictvím toho či onoho rituálu k jiným bohům, jsouce puzeni vlastní povahou.</simpara>
+
+<simpara>Jakoukoli podobu oddaný chce s vírou uctívat, Já ho v jeho víře upevním. Obdařený touto vírou, oddaný uctívá dotyčnou podobu, která mu splňuje jeho přání, jež jsou ve skutečnosti stanovena Mnou.</simpara>
+
+<simpara>Ale ovoce, které z takového uctívání lidem slabého intelektu vzchází, je konečné. Uctívatelé bohů jdou k bohům, Mí oddaní přicházejí ke Mně.</simpara>
+
+<simpara>Lidé se slabším porozuměním na Mne Neprojeveného myslí jako na projeveného, jelikož neznají můj nejvyšší stav - Neměnného a Nepřekonatelného.</simpara>
+
+<simpara>Nejsem pro všechny zjevný, neboť jsem zahalen májou. Tento klamný svět Mě nezná; nezná Nezrozeného a Toho, který nepodléhá změnám.</simpara>
+
+<simpara>Já, Ardžuno, znám bytosti z minulosti, v přítomnosti i budoucí, ale nikdo nezná Mě.</simpara>
+
+<simpara>Na základě iluze párů protikladů vznikající z pocitů chtění a odporu, všechny bytosti už od narození podléhají klamu, ó Bhárato, znepokojiteli nepřátel.</simpara>
+
+<simpara>Avšak lidé ctnostného jednání, kteří skončili s hříchem a jsou osvobozeni od klamu dualismu, Mě neochvějně uctívají dodržujíce svaté sliby.</simpara>
+
+<simpara>Ti, kteří se uchýlili ke Mně a usilují o osvobození od rozkladu a smrti, dosáhnou úplné realizace <foreignphrase>brahma</foreignphrase>, realizace individuálního já a veškeré karmy.</simpara>
+
+<simpara>Ti, již Mě realizují v <foreignphrase>adhibhutě</foreignphrase> (týkající se smrtelné přírody), v <foreignphrase>adhidaivě</foreignphrase> (jako nesmrtelného <foreignphrase>Purušu</foreignphrase>) a v <foreignphrase>adhijadžně</foreignphrase> (to, čím je jen Pán sám v tomto Jeho těle), ti s vyrovnanou myslí Mě realizují dokonce v hodině smrti.</simpara>
+  </chapter>
+
+  <chapter>
+    <title>Jóga nepomíjejícího <foreignphrase>brahma</foreignphrase></title>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Co je toto <foreignphrase>brahma</foreignphrase>? Co je <foreignphrase>adhjátma</foreignphrase>? Co je <foreignphrase>karma</foreignphrase>? Ó nejvýtečnější mezi muži, čemu se říká <foreignphrase>adhibhuta</foreignphrase> a co se nazývá <foreignphrase>adhidaiva</foreignphrase>?</simpara>
+
+<simpara>Kdo je <foreignphrase>adhijadžňa</foreignphrase> a jak působí zde v tomto těle, ó Mádhusúdano? A jak Tě lidé se sebeovládáním mají poznat v hodině smrti?</simpara>
+
+<para><phrase>Milostiplný Pán odpověděl:</phrase></para>
+
+<simpara>Nepomíjející je <foreignphrase>brahma</foreignphrase> - Nejvyšší. Jeho přebývání v individuálním těle se nazývá <foreignphrase>adhjátma</foreignphrase>. Oběti, jež je příčinou vzniku bytostí, se říká <foreignphrase>karma</foreignphrase>.</simpara>
+
+<simpara><foreignphrase>Adhibhuta</foreignphrase> se týká smrtelné přírody a <foreignphrase>Puruša</foreignphrase> je <foreignphrase>adhidaivata</foreignphrase>. Jen Já sám jsem <foreignphrase>adhijadžňa</foreignphrase> zde v tomto těle, ó nejlepší z vtělených.</simpara>
+
+<simpara>A kdokoli v okamžiku smrti odchází z těla a pamatuje přitom jen na Mne, dosáhne Mého bytí, o tom není nejmenších pochyb.</simpara>
+
+<simpara>Na jakoukoli formu bytí člověk myslí v poslední chvíli, kdy odchází z těla, té dosáhne, ó Kauntéjo, pokud byl trvale pohroužen v myšlenkách na ni.</simpara>
+
+<simpara>Proto neustále mysli jen na Mne - a bojuj. Pokud soustředíš mysl a chápání na Mne, určitě přijdeš ke Mně.</simpara>
+
+<simpara>S myslí za ničím jiným neputující, upevněnou vytrvalým praktikováním jógy, člověk meditující o nejvyšším zářícím <foreignphrase>Purušovi</foreignphrase> Ho dosáhne, ó Partho.</simpara>
+
+<simpara>Vševědoucí, Odvěký, Vládce, menší než atom, všeho udržovatel, nepředstavitelné formy, zářící jako slunce a za vší temnotou - kdo s oddaností medituje o tomto zářivém <foreignphrase>Purušovi</foreignphrase> v době smrti a silou jógy soustředí všechnu pránu v místě mezi obočím, ten Ho dosáhne.</simpara>
+<simpara/>
+
+<simpara>Stručně ti vysvětlím, co znalci véd nazývají nesmrtelností, do níž vstupují <foreignphrase>sanjásinové</foreignphrase> (lidé, kteří se odřekli světa). Tito se vyznačují sebeovládáním a nepřipoutaností a z touhy dosáhnout nesmrtelnosti žijí zdrženlivým životem.</simpara>
+
+<simpara>Ten, který odchází a opouští tělo se všemi branami těla zavřenými, s myslí upoutanou v srdci, se životní energií upevněnou v hlavě, zaměstnán neochvějnou jógou, vyslovuje slabiku <quote>ÓM</quote> (<foreignphrase>brahma</foreignphrase>), s myšlenkami upřenými na Mne, dosáhne Nejvyššího cíle.</simpara>
+<simpara/>
+
+<simpara>Jsem snadno dosažitelný, ó Partho, pro vytrvalého jogína, který na Mne denně bez ustání pamatuje, aniž pomyslí na cokoli jiného.</simpara>
+
+<simpara>Tyto velké duše, které přišly ke Mně, již nepodléhají znovuzrození, jež je přechodné a domovem bolesti, neboť dosáhly nejvyšší dokonalosti.</simpara>
+
+<simpara>Ze všech světu včetně světa Brahmova se duše musí vracet, Ardžuno, ale pro ty, které dosáhnou Mne, ó synu Kuntí, už není žádné znovuzrození.</simpara>
+
+<simpara>Ti, kteří vědí, že Brahmův den trvá tisíc jug a jeho noc trvá dalších tisíc jug, jsou znalci dne a noci.</simpara>
+
+<simpara>Na začátku dne vycházejí všichni projevení tvorové z Neprojeveného a když nastává noc, opět splynou s tím, čemu se říká Neprojevené.</simpara>
+
+<simpara>Toto ohromné množství bytostí, rodící se vždy znovu a znovu, splyne - i proti své vůli - když nastává noc, a znovu se, ó Partho, projeví, když nastává den.</simpara>
+
+<simpara>Avšak nad touto neprojevenou existencí je ještě jiná Neprojevená a věčná, která nepomíjí ani když skončí všechny ostatní.</simpara>
+
+<simpara>Toto Neprojevené se nazývá Nesmrtelné a říká se, že je to Nejvyšším cílem. Kdo jej dosáhne, už se nevrací. To je místem Mého spočinutí.</simpara>
+
+<simpara>Nejvyšší <foreignphrase>Puruša</foreignphrase>, ó Partho, je dosažitelný neochvějnou oddaností k Němu Jedinému, v němž dlí všechny bytosti a jímž je všechno prostoupeno.</simpara>
+
+<simpara>Nyní ti povím, ó nejlepší z Bháratijců, v jaký čas odcházejí jogíni, kteří se už nevracejí, a také o čase, kdy odcházejí druzí, aby se opět vrátili.</simpara>
+
+<simpara>V době ohně, světla, ve dne, za světlé poloviny měsíce a během šesti měsíců putování slunce k severu - v té době odcházejí ti, kdo poznali <foreignphrase>brahma</foreignphrase> a jdou k <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>Za kouře, v noci, za temné poloviny měsíce a za šest měsíců putování slunce k jihu - z těch, kteří odcházejí v této době, jogín obdrží světlo měsíce a opět se vrátí.</simpara>
+
+<simpara>Jasná a temná cesta - obě jsou považovány za věčné cesty světa. Tou první člověk odchází, aby se už nevracel; kdo odchází druhou, opět se vrátí.</simpara>
+
+<simpara>Znalý těchto dvou cest, žádný jogín nepodlehne klamu. Proto, Ardžuno, buď vždy vytrvalý v józe.</simpara>
+
+<simpara>Jogín, který toto zná, přesáhne i ovoce záslužných činů, vyplývajících ze studia véd, z obětí, odříkání a darů, a dosáhne Nejvyššího původního sídla.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je osmým pojednáním, nazvaným JÓGA NEPOMÍJEJÍCÍHO <FOREIGNPHRASE>BRAHMA</FOREIGNPHRASE> -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga svrchovaného vědění a svrchovaného tajemství</title>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Tobě, který nejsi šťouravý, zajisté odhalím nejhlubší vědění spolu s realizací, po jejichž poznání budeš osvobozen od zla.</simpara>
+
+<simpara>Je to svrchované vědění, svrchované tajemství, nejlepší prostředek očisty a je přímo realizovatelné v souladu s <foreignphrase>dharmou</foreignphrase>. Je nesmrtelné a velmi snadno uskutečnitelné v praxi.</simpara>
+
+<simpara>Lidé bez víry v tuto <foreignphrase>dharmu</foreignphrase> Mě nedosáhnou, ó utlačovateli nepřátel, nýbrž vracejí se do smrtelného světa.</simpara>
+
+<simpara>Celý tento vesmír je prostoupený Mnou, v Mé neprojevené formě, všechny bytosti existují ve Mně, ale Já v nich nepřebývám</simpara>
+
+<simpara>Ani ony nespočívají ve Mně - hle, taková je Má božská jóga! Já bytosti stvořím a udržuji, ale Mé Já v nich nesídlí.</simpara>
+
+<simpara>Avšak, jako mocný vítr duje všude a přitom stále spočívá v ákáše, věz, že stejně tak všechny bytosti spočívají ve Mně.</simpara>
+
+<simpara>Na konci kalpy, ó Kauntéjo, všechny bytosti vcházejí do Mé <foreignphrase>prakrti</foreignphrase> a Já je znovu stvořím na začátku kalpy následující.</simpara>
+
+<simpara>Oživuje Svou <foreignphrase>prakrti</foreignphrase> vysílám do života znovu a znovu toto obrovské množství bytostí, bezbranně vydaných na pospas režimu přírody.</simpara>
+
+<simpara>Ale ani tyto činy Mě nezavazují, ó Dhanandžájo. Zůstávám jimi nedotčen a nepoután.</simpara>
+
+<simpara>Díky Mé blízkosti <foreignphrase>prakrti</foreignphrase> stvoří toto všechno, co se hýbe i nehýbe. Jen proto se otáčí země, ó synu Kuntí.</simpara>
+
+<simpara>Pošetilci Mě považují za někoho oděného do lidské podoby a neznají mou vyšší podstatu svrchovaného Pána všech bytostí.</simpara>
+
+<simpara>Chovají marné naděje, konají marné činy a marné je jejich poznání bez rozlišování.Vpravdě se podílejí na povaze různých démonů, <foreignphrase>rákšasů</foreignphrase> a <foreignphrase>asurů</foreignphrase>.</simpara>
+
+<simpara>Ale mahátma - velké duše, které Mě poznaly jako Neměnného a Zdroj všech bytostí, a podílejí se na vlastnostech božské povahy, Mě uctívají s nerozdvojenou myslí, ó Partho.</simpara>
+
+<simpara>Stále Mě oslavují a pevní ve svých svatých slibech se Mi klanějí. Vytrvale Mě s oddaností uctívají.</simpara>
+
+<simpara>Jiní zase Mi přinášejí oběti v rámci <foreignphrase>jadžni</foreignphrase> poznání a uctívají Mě různě jako Jediného, jako odlišného či jako majícího všechny tváře.</simpara>
+
+<simpara>Jsem Kratu, jsem Jadžňa, jsem Svadha, jsem léčivá bylina, jsem mantra. Také jsem vyčeřené máslo, jsem oheň a jsem voda na omývání modly.</simpara>
+
+<simpara>Jsem Otcem tohoto světa i Matkou. Jsem rozdělovatelem i dědem. Jsem poznatelný, ten, který očišťuje, slabika ÓM a také Rik, <foreignphrase>Sáman</foreignphrase> a <foreignphrase>Jadžus</foreignphrase> (rig, sáma a jadžur).</simpara>
+
+<simpara>Jsem cíl, podporovatel, Pán, Svědek, domov, útočiště, přítel, zdroj, rozpuštění, základ, pokladnice a nesmrtelné semeno.</simpara>
+
+<simpara>Jsem dárcem tepla, zadržuji nebo uštědřuji déšť. Jsem nesmrtelnost a smrt. Jsem a zároveň nejsem, ó Ardžuno.</simpara>
+<!-- <simpara>s19</simpara>-->
+
+<simpara>Znalci tří véd, poživatelé sómy, očištěni od hříchu, Mě uctívají obětmi a modlí se za cestu do nebe. Dostanou se do svatého světa pána nad <foreignphrase>dévy</foreignphrase> a užívají si v nebi stejných nebeských potěšení jako <foreignphrase>dévové</foreignphrase>.</simpara>
+
+<simpara>Poté, co si užili šírého nebeského světa, vracejí se do světa smrtelníků, když vyčerpali zásobu svých zásluh. Takto naplňují učení tří véd, že pokud někdo touží po předmětech touhy, odchází a znovu přichází.</simpara>
+
+<simpara>Těm, kteří jsou vždy vroucně oddaní, uctívají jen Mě a nemyslí na nikoho jiného, Já opatřím zisk a poskytuji bezpečí.</simpara>
+
+<simpara>Dokonce ti oddaní, kteří mají víru a uctívají jiné bohy, uctívají jen Mě samotného, ó synu Kuntí, jenže nesprávnou metodou.</simpara>
+
+<simpara>Jsem vskutku požívajícím i Pánem všech obětí, ale tito lidé Mě ve skutečnosti neznají a to je příčinou jejich pádu.</simpara>
+
+<simpara>Uctívatelé <foreignphrase>dévů</foreignphrase> jdou k <foreignphrase>dévům</foreignphrase>, uctívatelé Otců (Pitru) jdou k otcům, k <foreignphrase>bhutám</foreignphrase> jdou uctívatelé živlů. Moji uctívatelé přijdou ke Mně.</simpara>
+
+<simpara>Kdokoli mi s oddaností nabídne list, květ, plod nebo vodu, přijmu to jako zbožný dar člověka čistého srdce.</simpara>
+
+<simpara>Cokoli děláš, cokoli pojíš, cokoli nabídneš jako oběť, cokoli rozdáš, cokoli si odřekneš, ó Kauntéjo, všechno konej jako dar Mně.</simpara>
+
+<simpara>Tak budeš osvobozen z pout následků činů přinášejících dobré nebo špatné výsledky. S myslí pevně ustálenou v józe odříkání a osvobozenou přijdeš ke Mně.</simpara>
+
+<simpara>Jsem stejný ke všem bytostem. Pro Mne není nikdo ani hoden nenávisti, ani Mi není drahý. Avšak ti, kteří Mě v oddanosti uctívají, jsou ve Mně a Já jsem také v nich.</simpara>
+
+<simpara>I když člověk páchající nejhorší hříchy Mě uctívá s neodchylující se oddaností, musí být počítán mezi spravedlivé, neboť se správně rozhodl.</simpara>
+
+<simpara>Brzy se z něho stane poctivý člověk a dostane se mu trvalého míru.Věz, ó Kauntéjo, a buď si jist, že žádný Můj oddaný nikdy nezahyne.</simpara>
+
+<simpara>Neboť všichni, kteří se uchýlili ke Mně - byť by byli i nižšího zrození jako ženy, <foreignphrase>vaišjové</foreignphrase> či <foreignphrase>šudrové</foreignphrase> - i oni dosáhnou Nejvyššího cíle.</simpara>
+
+<simpara>Čím spíše pak svatí bráhmani a oddaní ctihodní světci! Po příchodu do tohoto pomíjivého neradostného světa uctívají Mě.</simpara>
+
+<simpara>Soustřeď svou mysl na Mne, buď Mi oddaný, obětuj Mi, klaň se Mi. Když se takto ve Mně upevníš, považuje Mě za Nejvyšší cíl, přijdeš ke Mně.</simpara>
+
+<!--  JÓGA SVRCHOVANÉHO VĚDĚNÍ A SVRCHOVANÉHO TAJEMSTVÍ -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga Božských projevení</title>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>A ještě jednou, ó mohutný ve zbroji, vyslyš Mé svrchované slovo. S přáním tobě prospět chci promluvit o tom, co s velikým potěšením přijmeš.</simpara>
+
+<simpara>Můj původ neznají ani zástupy <foreignphrase>dévů</foreignphrase>, ani velcí mudrci, neboť v každém ohledu jsem zdrojem <foreignphrase>dévů</foreignphrase> i mudrců.</simpara>
+
+<simpara>Jen ten, kdo Mě poznal jako nezrozeného a bez počátku, jako nejvyššího Pána světů, jedině on je mezi smrtelníky bez klamu a osvobozený od všech hříchů.</simpara>
+
+<simpara>Intelekt, moudrost, nepodléhání klamu, trpělivost, pravda, sebeovládání, klid, radost, bolest, zrození, smrt, strach a nebojácnost,</simpara>
+
+<simpara>neubližování, vyrovnanost, spokojenost, odříkání, dobročinnost, věhlas a nactiutrhání - všechny tyto různé vlastnosti bytostí pramení pouze ze Mne.</simpara>
+
+<simpara>Z Mé mysli se narodilo sedm velkých mudrců a čtyři starodávní Manuové obdaření Mou mocí. A z nich pocházejí všichni tvorové na světě.</simpara>
+
+<simpara>Ten, kdo vpravdě zná tuto Mou slávu a moc, je obdařen neochvějnou jógou; o tom není pochyb.</simpara>
+
+<simpara>Já jsem zdrojem všeho. Ze Mne se vše vyvíjí. Moudří to vědí a z celého srdce Mě zbožňují.</simpara>
+
+<simpara>S myslí upřenou na Mne, celým svým životem do Mne ponoření, navzájem se poučující, stále o Mně hovořící, jsou spokojeni a plni velké radosti.</simpara>
+
+<simpara>Zbožným, kteří Mě s láskou uctívají, dávám jógu rozlišování, pomocí níž přicházejí ke Mně.</simpara>
+
+<simpara>Z čistého soucitu s nimi Já, který sídlím v jejich srdcích, odstraňuji tmu nevědomosti zářivou lampou moudrosti.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Tys svrchovaný <foreignphrase>brahma</foreignphrase>, nejvyšší útočiště, nejvyšší očišťovatel, věčný, božský <foreignphrase>Puruša</foreignphrase>, prvotní Božství, Nezrozený a Všudypřítomný.</simpara>
+
+<simpara>Všichni mudrci Tě takto oslavovali včetně mudrců Nárady, Asita, Dévaky a Vjásy. Nyní i Ty sám mi to říkáš.</simpara>
+
+<simpara>Věřím, že vše, co mi říkáš, je pravda, Kéšavo. Ani dév<foreignphrase>ové</foreignphrase>, ani <foreignphrase>dánavové</foreignphrase> (lidské monstrum, druh démona) neznají vpravdě všechny Tvoje projevy.</simpara>
+
+<simpara>Skutečně jen Ty Sám, Purušóttamo, znáš sama Sebe, ó zdroji všech bytostí, ó Pane všech tvorů, ó Bože všech bohů a vládče světa.</simpara>
+
+<simpara>Rač vypovědět, aniž co zamlčíš, svou božskou slávu, s níž stále prostupuješ všechny světy a v nich zůstáváš.</simpara>
+
+<simpara>Jak Tě, Jogíne, mohu poznat trvalou meditací? Na jaké Tvoje aspekty mám myslet, Pane?</simpara>
+
+<simpara>Pověz mi znovu podrobně, ó Džanardáno, o Tvé moci a o Tvých atributech, neboť se nemohu nabažit naslouchání Tvým životodárným slovům .</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Budiž! Povím ti nyní o Své božské slávě a o jednotlivých výtečnostech, ó nejlepší z Kuruovců. Bez konce jsou podrobnosti o všech Mých projeveních.</simpara>
+
+<simpara>Jsem vlastní Já, ó Gudakéšo, přítomen v srdcích všech bytostí. Jsem začátkem, prostředkem a také koncem všech tvorů.</simpara>
+
+<simpara>Z Aditjů jsem Višnu, ze světelných těles jsem zářivé Slunce. Jsem Mariči z Marutů a z hvězdných těles jsem Měsíc.</simpara>
+
+<simpara>Z véd jsem Sáman (sámavéda); mezi <foreignphrase>dévy</foreignphrase> jsem Vásava, ze smyslů jsem mysl a u živých bytostí jsem vědomí.</simpara>
+
+<simpara>Z Rudrů jsem Šankara, z <foreignphrase>jakšasů</foreignphrase> a <foreignphrase>rákšasů</foreignphrase> jsem Kubera. Z Vásů jsem Pávaka a z horstev jsem Meru.</simpara>
+
+<simpara>Z kněží, věz, že jsem nejvyšší Brihaspati; z velitelů jsem Skanda a z vodních ploch jsem oceán.</simpara>
+
+<simpara>Z velkých mudrců jsem Bhrigu; z vyslovených hlásek jsem monoslabika <quote>ÓM</quote>. Z obětí jsem <foreignphrase>džapa-jadžňa</foreignphrase> a z nehybných věcí jsem Himálaj.</simpara>
+
+<simpara>Ze všech stromů jsem <foreignphrase>Ašvatta</foreignphrase>, z božských mudrců jsem Nárada; z z <foreignphrase>gandharvů</foreignphrase> (nebeští andělé) jsem Čitraratha a ze <foreignphrase>siddhů</foreignphrase> (svatí zřeci) jsem muni Kapila.</simpara>
+
+<simpara>Z ořů, věz, že jsem Uččaišravas zrozený z nektaru, z majestátních slonů jsem Airavata a z lidí jsem nejvyšší vládce.</simpara>
+
+<simpara>Ze zbraní jsem hrom, z krav jsem Kamadhuk; jsem Kandarpa z praotců a z hadů jsem Vasuki.</simpara>
+
+<simpara>Z Nagů jsem Ananta, z pitrů jsem Arjama, z regulujících božstev jsem Jama.</simpara>
+
+<simpara>Z Daitjů jsem Prahláda a z počtářů jsem čas. Ze zvířat jsem pánem zvířat a z ptáků jsem Vainatéja.</simpara>
+
+<simpara>Z očišťovatelů jsem vítr, z mistrů vládnoucích zbraněmi jsem Ráma. Z ryb jsem žralok a z řek jsem Ganga.</simpara>
+
+<simpara>Všeho stvořeného jsem počátek a konec a také střed, ó Ardžuno. Z véd jsem věda o vlastním Já a u těch, kteří diskutují, jsem rozum.</simpara>
+
+<simpara>Z písmen jsem písmeno A a ze složených slov jsem <foreignphrase>dvanda</foreignphrase> (kopulativní duál). Jsem vskutku nevyčerpatelný čas. Jsem ten, který přiděluje, hledě na všechny strany.</simpara>
+
+<simpara>A jsem všepohlcující smrt. Jsem bohatství těch, kteří mají být bohatí a z ženských vlastností jsem věhlas, štěstí, řeč, paměť, inteligence, stálost a shovívavost.</simpara>
+
+<simpara>Z chvalozpěvů sámavédy jsem Brihat-sáman, z metrických veršů jsem Gájatrí. Z měsíců jsem Margasirša a z ročních období jsem kvetoucí jaro.</simpara>
+
+<simpara>Jsem hazardní hra podvodníků, jsem skvělost skvělých, jsem vítězství, jsem úsilí, jsem dobro dobrých.</simpara>
+
+<simpara>Z Vrišnů jsem Vásudéva, z Pánduovců jsem Dhanandžája, z mudrců jsem Vjása, ze zřeců jsem jasnovidný Usana.</simpara>
+
+<simpara>Jsem žezlo trestajících, jsem státnictví u těch, kteří usilují o vítězství, a také jsem mlčenlivost tajemství i moudrost moudrých. </simpara>
+
+<simpara>A cokoli je semenem všech jsoucen, to jsem Já, ó Ardžuno. Není žádná bytost, ať pohyblivá nebo nehybná, která by mohla existovat beze Mne.</simpara>
+
+<simpara>Výčet Mých božských projevů nemá konce, ó znepokojovateli nepřátel. Toto byl jen stručný výčet rozsahu Mé slávy.</simpara>
+
+<simpara>A jakákoli bytost - nádherná, úspěšná nebo mocná, věz, že pouze vytryskla z jiskry Mé skvělosti.</simpara>
+
+<simpara>Ale k čemu je třeba znát všechny tyto podrobnosti, Ardžuno? Jako pilíř udržuji celý vesmír jediným fragmentem sama Sebe.</simpara>
+
+<!--  V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je desátým pojednáním, nazvaným JÓGA BOŽSKÝCH PROJEVENÍ. -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga vize kosmické formy</title>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Tato hluboká promluva pojednávající o Nejvyšším Já, kterou jsi pronesl ze soucitu ke mně, rozptýlila moje pochybnosti.</simpara>
+
+<simpara>Od Tebe, Pane s lotosovýma očima, jsem dopodrobna vyslechl o vzniku a rozpuštění bytostí a také o Tvé nevyčerpatelné velikosti.</simpara>
+
+<simpara>Cos o Sobě prohlásil, tím vším skutečně jsi, ó nejvyšší Pane. A proto toužím spatřit Tvou podobu Íšvary, ó Purušóttamo!</simpara>
+
+<simpara>Pokud považuješ za možné, abych ji spatřil, ó Pane, pak mi přece, Pane jógy, ukaž Své věčné Já.</simpara>
+
+<para><phrase>Milostiplný Pán odpověděl:</phrase></para>
+
+<simpara>Zhlédni moje formy, Partho, po stech a po tisících - rozmanité a božské v nejrůznějších barvách a tvarech.</simpara>
+
+<simpara>Pohleď na Aditji, Vásy a Rudry, na Asviny a také Maruty. Pohleď, Bhárato, na mnoho divů, které ještě nikdo nikdy nespatřil.</simpara>
+
+<simpara>Dnes tu zhlédni, ó Gudakéšo, celý vesmír pohyblivý i nehybný a vše, co si ještě přeješ vidět jako integrální části Mého těla.</simpara>
+
+<simpara>Ale nemůžeš Mě vidět svýma tělesnýma očima. Dám ti božské vidění; pohleď na Mou Nejvyšší jógu.</simpara>
+
+<para><phrase>Sandžája řekl:</phrase></para>
+
+<simpara>Poté, co takto promluvil, ó králi, ukázal nejvyšší Pán jógy Parthovi Svou svrchovanou formu Íšvary.</simpara>
+
+<simpara>S mnohými ústy a četnýma očima a mnohými úžasnými, podivuhodnými pohledy na veliká množství svatých dekorací a tasených božských zbraní.</simpara>
+
+<simpara>Ověšen nebeskými girlandami, oděn nebeskými rouchy, pomazán nebeskými parfémy byl celý nádherný, jiskřivě zářivý, bezmezný, s tvářemi hledícími do všech stran.</simpara>
+
+<simpara>Kdyby na nebi najednou zazářilo tisíc sluncí, podobalo by se to Máhátmanově skvělosti.</simpara>
+
+<simpara>V těle Nejvyššího Boha uviděl Pándava celý vesmír s jeho oddělenými částmi staženými do jediné formy. </simpara>
+
+<simpara>Dhanandžája byl ohromen a vlasy mu vstávaly úžasem. Sklonil před zbožňovaným Pánem hlavu a se spojenými dlaněmi řekl:</simpara>
+
+<para><phrase>Ardžuna pravil:</phrase></para>
+
+<simpara>Ó Bože, v Tvém těle vidím všechny bohy a zástupy bytostí všech úrovní. Vidím pána Brahmu sedícího na lotosovém květu a všechny mudrce i nebeské hady.</simpara>
+
+<simpara>Vidím Tebe s formou rozprostírající se do všech stran až do nekonečna s bezpočtem paží, trupů, úst a očí. Nevidím, kde je Tě konec; nevidím ani prostředek ani začátek, ó Pane vesmíru, ó Kosmická formo.</simpara>
+
+<simpara>Vidím Tě s diadémem, kyjem a diskem a všude kolem Tebe plane obrovská záře. Je obtížné do ní hledět, neboť oslňuje jako planoucí oheň nebo slunce a je nezměřitelná.</simpara>
+
+<simpara>Tys Nehynoucí, Nejvyšší bytost, již máme realizovat. Jsi velkou pokladnicí kosmu. Jsi nehynoucím ochráncem věčné <foreignphrase>dharmy</foreignphrase>. Jsi odvěký <foreignphrase>Puruša</foreignphrase>; za Něho Tě považuji.</simpara>
+
+<simpara>Vidím Tě bez začátku, prostředku a konce, s nekonečnou mocí, s nekonečným počtem paží. Slunce a měsíc jsou Tvé oči a planoucí oheň Tvá ústa. Celý vesmír zahříváš Svou září.</simpara>
+
+<simpara>Prostor mezi nebem a zemí a všechny čtyři světové strany naplňuješ jen Ty sám. Po zhlédnutí Tvé podivuhodné a strašlivé formy všechny tři světy se chvějí strachy, ó Mahátmo.</simpara>
+
+<simpara>Vskutku do Tebe vstupují zástupy <foreignphrase>dévů</foreignphrase>, z nichž někteří tě oslavují s posvátnou úctou a se sepjatými dlaněmi. Řady velkých mudrců a <foreignphrase>siddhů</foreignphrase> volají: <quote>Buď zdráv a veleben</quote> a chválí Tě vznešenými chvalozpěvy.</simpara>
+
+<simpara>Rudrové, Aditjové, Vásuové, Sadhjové, Višvové, Asvíni, Maruti, Ušmapasové a zástupy <foreignphrase>gandarvů</foreignphrase>, <foreignphrase>jakšové</foreignphrase> a <foreignphrase>siddhové</foreignphrase> - všichni na Tebe zírají a jsou ohromeni.</simpara>
+
+<simpara>Při pohledu na Tvou nezměřitelnou formu s myriádou úst a očí, ó Mohutný ve zbrani, s myriádou nohou a stehen, s myriádou břich a s myriádou strašlivých tesáků světy jsou jaty hrůzou, a já též.</simpara>
+
+<simpara>Když Tě vidím, jak se dotýkáš nebes ohnivými barvami s ústy dokořán, s velkýma plamennýma očima, mé srdce se chvěje strachy a nenalézám ani odvahu, ani klid, ó Višnu!</simpara>
+
+<simpara>Když vidím Tvá ústa, jak jsou strašná se svými tesáky podobající se ohňům <foreignphrase>pralaji</foreignphrase> (velkého rozpouštění vesmíru), nerozeznám ani čtyři světové strany a nikde nenalézám klidu. Buď milostiv, ó Pane bohů, ó Sídlo vesmíru.</simpara>
+
+<simpara>Všichni Dhrtaráštrovi synové se zástupem králů země, Bhíšma, Dróna a Sutaputra spolu s našimi vojevůdci ve spěchu vcházejí do Tvých úst, která se svými tesáky skýtají hrozný pohled.</simpara>
+
+<simpara>Někteří z nich uvízli v mezerách mezi zuby a jejich hlavy jsou rozdrceny na prach.</simpara>
+
+<simpara>Skutečně, jako se množství dravých proudů řek řítí k oceánu, tak se hrdinové tohoto světa lidí vrhají do žhavých plamenů Tvých četných úst.</simpara>
+
+<simpara>Stejně jako se noční můry vrhají do plamene, aby v něm našly smrt, tyto bytosti spěchají do Tvých úst vstříc své zkáze.</simpara>
+
+<simpara>Svými plamennými ústy pohlcuješ světy na všech stranách a jen si olizuješ rty. Tvé ohnivé paprsky žhnou a naplňují celý svět září, ó Višnu!</simpara>
+
+<simpara>Pověz mi, kdo jsi v takové kruté podobě, které se teď klaním. Ó svrchovaný Bože, měj slitování. Toužím tě poznat, Tebe, Prvotního ze všech. Neznám Tvůj záměr.</simpara>
+
+<para><phrase>Milostiplný Pán odpověděl:</phrase></para>
+
+<simpara>Jsem mocný Čas ničící svět a právě teď se zabývám jeho vyhlazením. I kdyby tebe nebylo, bojovníci zde v nepřátelských armádách nezůstanou naživu.</simpara>
+
+<simpara>Proto povstaň a získej věhlas. Poraž nepřítele a užívej si království, jemuž není rovno. Pravda je, že tví protivníci už byli zabiti Mnou. Ty buď pouze vnější příčinou, ó Savjasačine!</simpara>
+
+<simpara>Zabij Drónu, Bhíšmu, Džajadrátu, Karnu a jiné statečné válečníky, nad nimiž jsem Já již vynesl ortel. Nedej se zneklidnit strachem. Bojuj! Své nepřátele v bitvě porazíš.</simpara>
+
+<para><phrase>Sandžája řekl:</phrase></para>
+
+<simpara>Když vyslyšel Kéšavův projev, korunovaný (Ardžuna) se poklonil tváří až k zemi. Se sepjatými dlaněmi, třesoucí se na celém těle, přidušeným hlasem znovu oslovil Krišnu, klaně se přemožen strachem.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Je jen příhodné, ó Hrišikéšo, že je svět šťastný a s radostí Tě velebí. <foreignphrase>Rákšasové</foreignphrase> plni strachu zděšeně prchají do všech stran a zástupy <foreignphrase>siddhů</foreignphrase> se Ti klanějí.</simpara>
+
+<simpara>A proč by se Ti neměli klanět, ó Velkodušný, když jsi větší, když jsi prvotní příčinou dokonce i Brahmy, ó nekonečné Jsoucno, Pane bohů, který jsi domovem vesmíru a nesmrtelný.</simpara>
+
+<simpara>Tys prvotní Bůh, odvěký <foreignphrase>Puruša</foreignphrase>, Tys Nejvyšším domovem všeho, co je. Tys poznávající a poznatelné a Nejvyšší místo spočinutí. Tento vesmír je Tebou prostoupen, ó Jsoucno nekonečné formy.</simpara>
+
+<simpara>Tys Váju, Jama, Agni, Varuna, Měsíc, Pradžapati a praděd. Pozdravení Tobě, tisíce pozdravení a ještě znovu a další pozdravení Tobě!</simpara>
+
+<simpara>Vzdávám Ti poctu zepředu, vzdávám Ti poctu zezadu, vzdávám Ti poctu ze všech stran. Ó Ty, jenž jsi Vším! S nekonečnou mocí a nezměřitelnou silou všechno prostupuješ, a proto jsi vším.</simpara>
+
+<simpara>Cokoli jsem kdy vyslovil unáhleně z nedbalosti nebo z lásky, oslovuje Tě jako <quote>Krišno, Jádavo nebo příteli,</quote> považuje Tě pouze za přítele a neznalý této Tvé velikosti,</simpara>
+
+<simpara>jakýmkoli způsobem jsem se Tě mohl dotknout z legrace, při hře, při odpočinku, posezení nebo při jídle, o samotě nebo ve společnosti, ó Ačjuto, zapřísahám Tě, Nezměrný, abys mi to odpustil.</simpara>
+
+<simpara>Tys Otcem tohoto světa pohyblivého i nehybného. Tento svět Tě musí zbožňovat. Tys Nejvyšší guru. Není nikdo, kdo by se Ti vyrovnal ve všech třech světech; kdo by Tě pak mohl předčít, ó Jsoucno neporovnatelné moci?</simpara>
+
+<simpara>Proto se Ti klaním a pokládám tělo k Tvým nohám s prosbou, abys mi, můj milovaný Pane, odpustil. Měj se mnou strpení jako otec se synem, jako přítel s přítelem, jako milenec se svou milovanou.</simpara>
+
+<simpara>Jsem šťasten, že jsem spatřil to, co nikdo před tím neviděl, ale moje mysl je strachem zmatená. Měj se mnou slitování, ó Bože, a ukaž mi jen tu jednu Tvou podobu, Bože všech bohů, Sídlo vesmíru.</simpara>
+
+<simpara>Přeji si vidět Tě jako dříve s korunou na hlavě, s žezlem a diskem v rukou, v Tvé dřívější formě se čtyřmi pažemi, ó Tisíciruký, ó Kosmická formo!</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Mocí své jógy jsem ti milostivě ukázal Nejvyšší formu, Ardžuno. Viděls tuto nádhernou kosmickou nekonečnou a odvěkou formu, kterou kromě tebe nikdo nikdy nespatřil.</simpara>
+
+<simpara>Ani studiem véd, ani obětováním, ani pomocí milodarů, rituálů či přísným pokáním nemůže tato moje forma být spatřena ve světě lidí nikým jiným než tebou, ó hrdino Kuruovců.</simpara>
+
+<simpara>Nestrachuj se a nepodléhej zmatku při pohledu na Mou hrůzostrašnou formu. Oproštěn od strachu se nyní s radostným srdcem opět podívej na Mou dřívější podobu.</simpara>
+
+<para><phrase>Sandžája řekl:</phrase></para>
+
+<simpara>Po těchto slovech Vásudéva Ardžunovi zase ukázal Svou vlastní formu. Velkodušný přijal svou dřívější mírnou podobu a utěšil vyděšeného Ardžunu.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Při pohledu na tuto Tvou líbeznou lidskou formu, ó Džanardáno, jsem nyní uklidněn a zase jsem se vzpamatoval.</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Tuto Mou formu, kterou jsi uviděl ty, je skutečně velmi těžké zahlédnout. I <foreignphrase>dévové</foreignphrase> touží po tom, aby ji mohli spatřit.</simpara>
+
+<simpara>Ani studiem véd, ani přísným odříkáním, ani udílením milodarů nebo konáním obětí Mě nelze spatřit ve formě, ve kterés Mě uviděl ty.</simpara>
+
+<simpara>Avšak neochvějnou oddaností je možné Mě v této formě poznat a skutečně i vidět, dokonce i do ní vstoupit.</simpara>
+
+<simpara>Ten, kdo pro Mne pracuje, kdo ke Mně vzhlíží jako k Svrchovanému, kdo je Mi oddaný a je prost připoutanosti i nenávisti k jakémukoli tvoru, ten přijde ke Mně, ó Pándavo.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je jedenáctým pojednáním, nazvaným JÓGA VIZE KOSMICKÉ FORMY -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga oddanosti</title>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Kteří oddaní jsou zběhlejší v józe, ti, kteří Tě vytrvale uctívají prací, jsou Ti oddaní a vzhlíží k Tobě jako k Nejvyššímu cíli, anebo ti, kteří Tě uctívají jako Věčného a Neprojeveného?</simpara>
+
+<para><phrase>Milostiplný Pán odpověděl:</phrase></para>
+
+<simpara>Ti, kteří na Mne soustředili svou mysl a zůstávají pevní, obdařeni nejhlubší vírou (<foreignphrase>šraddhá</foreignphrase>) a takto Mne uctívají - ty považuji za dokonalé v józe.</simpara>
+
+<simpara>Ale ti, kteří uctívají nesmrtelného, nedefinovatelného, Neprojeveného, všudypřítomného, myslí nepostřehnutelného, neměnného, nehybného a věčného -</simpara>
+
+<simpara>poté, co zkrotili své smysly a s vyrovnanou myslí se neustále starají o blaho všech bytostí - i oni vpravdě přijdou ke Mně.</simpara>
+
+<simpara>Avšak obtížnější je cesta těch, kteří upírají svou mysl k Neprojevenému, neboť cíl Neprojeveného je pro vtělené bytosti velmi těžko dosažitelný.</simpara>
+
+<simpara>Ale ti, kdož Mě uctívají a všechno konání odevzdávají Mně, považujíce Mě za Nejvyšší cíl, kteří o Mně meditují s jednobodově soustředěnou pozorností-</simpara>
+
+<simpara>pro ty, kteří myslí jen na Mne, Já se velmi brzy stanu vysvoboditelem z oceánu smrtelné samsáry (světské putování).</simpara>
+
+<simpara>Svou mysl soustřeď a upevni ve Mně, své myšlenky nech spočinout ve Mně. Potom budeš žít jen ve Mně, o tom není pochyb.</simpara>
+
+<simpara>Nedaří-li se ti soustředit svou mysl vytrvale na Mne, ó Dhanandžájo, pak se snaž dosáhnout Mě pomocí abhjásajógy (disciplína stálého cvičení)</simpara>
+
+<simpara>Nejsi-li schopen ani praktikovat abhjásajógu, pak chtěj všechny činy konat jedině pro Mne. I tím, že budeš všechno dělat jen pro Mne, dosáhneš dokonalosti.</simpara>
+
+<simpara>Pokud nedokážeš ani to, uchyl se ke Mně, ztiš své jáství a vzdej se ovoce všech svých činů. </simpara>
+
+<simpara>Lepší je vskutku poznání než (formální ) abhjása; lepší než poznání je meditace; lepší než meditace je odříkání se ovoce činů. Odříkání je okamžitě následováno mírem.</simpara>
+
+<simpara>Ten, kdo nechová k žádnému tvoru nenávist, je ke každému přátelský a soucitný, kdo se oprostil od pocitu <quote>já a moje</quote>, s vyrovnanou myslí přijímá bolest a radost a je shovívavý, </simpara>
+
+<simpara>stále spokojený, vytrvalý v meditaci, znalý sebevlády a pevný ve svém přesvědčení, s myslí a intelektem zakotveným ve Mně - takový oddaný je mi drahý.</simpara>
+
+<simpara>Kdo netrápí svět a světem není sužován, kdo je osvobozen od radosti, zloby, strachu a úzkosti, takový oddaný je mi drahý.</simpara>
+
+<simpara>Ten, komu nic neschází, kdo je ryzí a upřímný, pohotový, bezstarostný a klidný, ve všem co dělá je nesobecký a je Mi takto oddaný - ten je Mi drahý.</simpara>
+
+<simpara>Ten, kdo ani nejásá, ani nepropadá nenávisti, nermoutí se a je bez přání, kdo se zříká dobrého a zlého a je plný oddanosti, ten je Mi drahý.</simpara>
+
+<simpara>Kdo se chová stejně k nepříteli jako k příteli, je stejný ve cti i při zneuctění, v zimě i v horku, v radosti i bolesti a na ničem nelpí,</simpara>
+
+<simpara>kdo přijímá obviňování stejně jako chválu, je mlčenlivý, se vším spokojený, bez domova, má vyrovnanou mysl a je plný oddanosti - takový člověk je mi drahý.</simpara>
+
+<simpara>Vpravdě ti, kteří se řídí touto nesmrtelnou <foreignphrase>dharmou</foreignphrase> tak, jak byla právě popsána, kteří mají víru a oddanost a považují Mě za Nejvyšší cíl - ti jsou Mi nade vše drazí.</simpara>
+
+<!-- JÓGA ODDANOSTI -->
+  </chapter>
+  </part>
+
+  <part>
+    <title>Džňána-jóga</title>
+  <chapter>
+    <title>Jóga rozlišování mezi <foreignphrase>Kšétrou</foreignphrase>, polem a Znalcem pole (<foreignphrase>Kšétradžňa</foreignphrase>)</title>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara><foreignphrase>Prakrti</foreignphrase> a <foreignphrase>Purušu</foreignphrase>, také <foreignphrase>kšétru<foreignphrase> a </foreignphrase>kšétradžňu</foreignphrase>, poznání a to, co má být poznáno, to všechno toužím poznat, ó Kéšavo.</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Tomuto tělu, ó Kauntéjo, se říká <foreignphrase>kšétra</foreignphrase>, pole; znalci pole říkají mudrci <foreignphrase>Kšétradžňa</foreignphrase>.</simpara>
+
+<simpara>Věz, že Já jsem <foreignphrase>Kšétradžňa</foreignphrase> ve všech <foreignphrase>kšétrách</foreignphrase>, ó Bhárato. Poznání <foreignphrase>kšétry</foreignphrase> a <foreignphrase>Kšétradžni</foreignphrase> Já považuji za pravé poznání.</simpara>
+
+<simpara>Vyslyš nyní ode Mne stručný popis <foreignphrase>kšétry</foreignphrase>, jejích vlastností a modifikací, odkud co přichází a kdo je On (<foreignphrase>Kšétradžňa</foreignphrase>) a co všechno je v Jeho moci.</simpara>
+
+<simpara>O tom zpívali a recitovali mudrci rozličným způsobem v různých hymnech a odstavcích, svědčících pro <foreignphrase>brahma</foreignphrase>, způsobem plně rozumným a přesvědčivým.</simpara>
+
+<simpara>Velké živly, egoismus, intelekt a také to neprojevené, deset smyslů a mysl a pět objektů smyslů;</simpara>
+
+<simpara>chtění, nenávist, radost, bolest spolu s inteligencí a neochvějností - to byl stručný popis <foreignphrase>kšétry</foreignphrase> a jejích modifikací.</simpara>
+
+<simpara>Pokora, skromnost, neubližování, tolerance, přímost, služba učiteli, čistota, vytrvalost, sebeovládání;</simpara>
+
+<simpara>lhostejnost vůči objektům smyslů, také nesobeckost a pohlížení na zrození, smrt, stáří, nemoc a bolest jako na zlo;</simpara>
+
+<simpara>nepřipoutanost, neztotožňování se se synem, manželkou, domovem a podobně, a stálá vyrovnanost tváří v tvář událostem příjemným i nepříjemným;</simpara>
+
+<simpara>neochvějná oddanost ke Mně v józe neodloučenosti, uchylování se do odlehlých míst a nechuť ke společnosti lidí;</simpara>
+
+<simpara>stálost v poznání Sebe, dohlédnutí konce poznávání pravdy - to je prohlašováno za vědění, a vše, co je jeho opakem, je nevědomost.</simpara>
+
+<simpara>Nyní popíši to, co je třeba poznat a poznáním čehož člověk dosáhne nesmrtelnosti. Bez počátku je Svrchované <foreignphrase>brahma</foreignphrase>. Nelze o Něm říci ani že je <quote>sat</quote>, ani že je <quote>asat</quote>.</simpara>
+
+<simpara>S rukama a nohama všude, s očima, hlavami a ústy všude i s ušima všude On existuje a všechno obklopuje.</simpara>
+
+<simpara>Svítí v činnosti všech smyslů, a přece je bez smyslů; Absolutní, přitom všechno udržující, bez <foreignphrase>gun</foreignphrase>, které přesto zakouší.</simpara>
+
+<simpara>Je vně i uvnitř všech bytostí, hýbe se a také je nehybný; pro Svou extrémní jemnost je nepostřehnutelný rozumem. Je daleko i blízko.</simpara>
+
+<simpara>Je nedílný, a přece se zdá, že je rozdělený na jednotlivé bytosti. Je známý jako udržovatel bytostí. Pohlcuje a plodí.</simpara>
+
+<simpara>Je světlem všech světel a za veškerou tmou. Je poznání, poznatelné i cílem poznání a přebývá v srdcích všech.</simpara>
+
+<simpara>Tím byly stručně popsány <foreignphrase>kšétra</foreignphrase>, poznání a to, co má být poznáno. S touto znalostí se Můj oddaný stává způsobilým dosáhnout Mého stavu.</simpara>
+
+<simpara>Věz, že <foreignphrase>prakrti</foreignphrase> i <foreignphrase>Puruša</foreignphrase> jsou oba bez počátku. A věz také, že všechny modifikace a <foreignphrase>guny</foreignphrase> se zrodily z <foreignphrase>prakrti</foreignphrase>. </simpara>
+
+<simpara>Říká se, že příčinou stvoření těla a smyslů je <foreignphrase>prakrti</foreignphrase>, ale příčinou zakoušení radosti a bolesti je <foreignphrase>Puruša</foreignphrase>.</simpara>
+
+<simpara><foreignphrase>Puruša</foreignphrase> usazený v <foreignphrase>prakrti</foreignphrase> zakouší <foreignphrase>guny</foreignphrase> zrozené z <foreignphrase>prakrti</foreignphrase>. Jeho vazba na <foreignphrase>guny</foreignphrase> je příčinou zrození v dobrém anebo špatném lůně.</simpara>
+
+<simpara>Svrchovaný <foreignphrase>Puruša</foreignphrase> v tomto těle se také nazývá Pozorovatelem, tím, kdo připouští, udržuje a zakouší, nejvyšším Pánem, svrchovaným Já.</simpara>
+
+<simpara>Ten, kdo takto zná <foreignphrase>Purušu</foreignphrase> a <foreignphrase>prakrti</foreignphrase> spolu i s <foreignphrase>gunami</foreignphrase>, už se nikdy nenarodí, ať žije jakýmkoli způsobem.</simpara>
+
+<simpara>V meditaci někteří zahlédnou velké vlastní Já ve vlastním já, druzí Ho spatří prostřednictvím jógy poznání a ještě další cestou karmajógy.</simpara>
+
+<simpara>Jiní, neznalí těchto cest, uctívají podle toho, jak to slyšeli od druhých. I oni překročí smrt pro oddanost tomu, co uslyšeli.</simpara>
+
+<simpara>Každá zrozená bytost, ať pohyblivá nebo nehybná, věz, ó nejlepší z Bháratijců, že se zrodila ze spojení <foreignphrase>kšétry</foreignphrase> (pole) a <foreignphrase>Kšétradžni</foreignphrase> (znalce pole).</simpara>
+
+<simpara>Ten, kdo vidí, že Nejvyšší Pán zůstává stejný ve všech bytostech, kdo vidí Nesmrtelného v umírajících, ten vidí.</simpara>
+
+<simpara>Neboť ten, kdo vidí Pána stejného ve všem, nezničí vlastní já vlastním já, a proto dosáhne Nejvyššího cíle.</simpara>
+
+<simpara>Kdo vidí, že veškerá činnost je vykonávána jedině působením <foreignphrase>prakrti</foreignphrase> a že átmán je nečinný, ten vpravdě vidí.</simpara>
+
+<simpara>Když si uvědomí, že veškerá rozmanitost bytostí spočívá jen v Jediném, a že se pouze z Jediného vyvinula, sám se stane <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>Toto nesmrtelné Svrchované Já bez počátku a bez <foreignphrase>gun</foreignphrase>, Kauntéjo, přesto, že sídlí v těle, nic nekoná ani není ničím poskvrněno.</simpara>
+
+<simpara>Jako všepronikající ákáša (prostor, éter) nemůže pro svou jemnost být ničím poskvrněna, stejně tak nemůže být poskvrněno vlastní Já sídlící v těle. </simpara>
+
+<simpara>Stejně, jako jedno slunce osvěcuje celý svět, tak osvěcuje Pán <foreignphrase>kšétry</foreignphrase> celou <foreignphrase>kšétru</foreignphrase>, ó Bhárato.</simpara>
+
+<simpara>Ti, kteří okem moudrosti rozpoznávají tento rozdíl mezi <foreignphrase>kšétrou</foreignphrase>, Znalcem <foreignphrase>kšétry</foreignphrase> (<foreignphrase>Kšétradžňa</foreignphrase>) a vysvobozením bytostí z <foreignphrase>prakrti</foreignphrase>, přijdou k Svrchovanému.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je třináctým pojednáním, nazvaným JÓGA ROZLIŠOVÁNÍ MEZI KŠÉTROU, POLEM, A ZNALCEM POLE (KŠÉTRADŽŇA) -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga rozdělení tří <foreignphrase>gun</foreignphrase></title>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Znovu vyložím nejvyšší učení, ze všech nejlepší učení, po jehož poznání všichni moudří přešli z tohoto světa do nejvyšší dokonalosti.</simpara>
+
+<simpara>Ti, kteří se tomuto poznání oddali, dosáhli jednoty se Mnou. V době stvoření se již nenarodí ani se jich nedotkne doba rozpuštění.</simpara>
+
+<simpara>Moje lůno je Máhát Brahmá (<foreignphrase>prakrti</foreignphrase>), tam vložím zárodek a odtud, Bhárato, vzniká zrození všech bytostí.</simpara>
+
+<simpara>Všechny formy, které vznikají v jakémkoliv lůně, mají své lůno v Brahmanu (<foreignphrase>prakrti</foreignphrase>) a Mne mají jako plodícího Otce.</simpara>
+
+<simpara><foreignphrase>Sattva</foreignphrase>, <foreignphrase>radžas</foreignphrase> a <foreignphrase>tamas</foreignphrase> - tyto tři <foreignphrase>guny</foreignphrase> zrozené z <foreignphrase>prakrti</foreignphrase>, ó mocně ozbrojený, pevně poutají Nezničitelného, vtěleného v těle.</simpara>
+
+<simpara>Z nich <foreignphrase>sattva</foreignphrase> je neposkvrněná, září a nepřekáží. Poutá člověka, ó reku bez hříchu, tím, že vytváří připoutanost ke štěstí a připoutanost k poznání.</simpara>
+
+<simpara>Věz, že <foreignphrase>radžas</foreignphrase> je povahy vášnivé, zdroj žízně a lpění. Rychle připoutává vtěleného sklonem k činnosti, ó Kauntéjo!</simpara>
+
+<simpara>Věz, že <foreignphrase>tamas</foreignphrase> se rodí z nevědomosti a klame všechny vtělené bytosti. Pevně je poutá, ó Bhárato, lpěním na netečnosti, lenosti a spánku.</simpara>
+
+<simpara><foreignphrase>Sattva</foreignphrase> člověka váže ke štěstí, <foreignphrase>radžas</foreignphrase> k aktivitě, ó Bhárato, zatímco <foreignphrase>tamas</foreignphrase> skutečně zamlžuje vědění a způsobuje netečnost.</simpara>
+
+<simpara><foreignphrase>Sattva</foreignphrase> se prosazuje, ó Bhárato, tím, že má převahu nad <foreignphrase>radžasem</foreignphrase> a <foreignphrase>tamasem</foreignphrase>. <foreignphrase>Radžas</foreignphrase> tím, že převládá nad <foreignphrase>sattvou</foreignphrase> a <foreignphrase>tamasem</foreignphrase> a <foreignphrase>tamas</foreignphrase> nad <foreignphrase>sattvou</foreignphrase> a <foreignphrase>radžasem</foreignphrase>.</simpara>
+
+<simpara>Když paprsky světla poznání vyzařují všemi branami těla, je to znamení, že převládá <foreignphrase>sattva</foreignphrase>.</simpara>
+
+<simpara>Chamtivost, aktivita, podnikání různých akcí, neklid, touhy - to vše vzniká z převládajícího <foreignphrase>radžasu</foreignphrase>, ó Bhárato.</simpara>
+
+<simpara>Nerozlišování, nehybnost, netečnost a klam vznikají, když je v převaze <foreignphrase>tamas</foreignphrase>, ó radosti Kuruovců.</simpara>
+
+<simpara>Pokud vtěleného zastihne smrt, když u něho převládá <foreignphrase>sattva</foreignphrase>, odchází do čistých světů duší, jež získaly nejvyšší poznání.</simpara>
+
+<simpara>Zastihne-li ho, když u něho převládá <foreignphrase>radžas</foreignphrase>, narodí se mezi lidmi poutanými aktivitou, a pokud umře v <foreignphrase>tamasu</foreignphrase>, narodí se v lůně nevědomých, podléhajících klamu.</simpara>
+
+<simpara>Říká se, že ovocem dobrých činů je <foreignphrase>sattva</foreignphrase>, čistota, ovocem <foreignphrase>radžasu</foreignphrase> je vpravdě bolest a plodem <foreignphrase>tamasu</foreignphrase> je nevědomost.</simpara>
+
+<simpara>Ze <foreignphrase>sattvy</foreignphrase> vzchází moudrost a z <foreignphrase>radžasu</foreignphrase> chamtivost. Netečnost a omyly vycházejí z <foreignphrase>tamasu</foreignphrase> jakož i nevědomost.</simpara>
+
+<simpara>Lidé upevnění v <foreignphrase>sattvě</foreignphrase> stoupají vzhůru, <foreignphrase>radžasičtí</foreignphrase> zůstávají na středu a <foreignphrase>tamasičtí</foreignphrase>, nacházející se v nejnižší <foreignphrase>guně</foreignphrase>, klesají dolů.</simpara>
+
+<simpara>Ten, kdo nevidí jiného činitele než <foreignphrase>guny</foreignphrase>, a zná Toho, kdo je nad <foreignphrase>gunami</foreignphrase>, vejde do Mého bytí.</simpara>
+
+<simpara>Když vtělený překročí tyto tři <foreignphrase>guny</foreignphrase>, z nichž se vyvinulo tělo, pak je osvobozen od zrození, smrti, rozkladu a bolesti, a stane se nesmrtelným.</simpara>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Jakými znaky se vyznačuje člověk, který překročil <foreignphrase>guny</foreignphrase>, ó Pane? Jak se chová a jak se nad <foreignphrase>guny</foreignphrase> povznese?</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Ó Pándavo, ten, který nemá v nenávisti světlo, aktivitu a klam, jsou-li přítomny, ani po nich netouží, jsou-li nepřítomny;</simpara>
+
+<simpara>kdo sedí, jakoby se ho nic z toho netýkalo a nedá se pohnout <foreignphrase>gunami</foreignphrase>, neboť ví, že jsou to <foreignphrase>guny</foreignphrase>, které jsou v činnosti, a zůstává proto pevný a nepohnutý.</simpara>
+
+<simpara>Vyrovnaný v radosti i bolesti, zůstávající sám v sobě, pohlížející stejně na hrudku země, kámen i kus zlata, chovající se stejně k příjemnému jako k nepříjemnému, je pevný a přijímá stejně chválu i hanu.</simpara>
+
+<simpara>Je stejný při poctách jako při zneuctění, chová se stejně k příteli jako k nepříteli, a poté, co zanechal všeho podnikání, říká se o něm, že překročil <foreignphrase>guny</foreignphrase>.</simpara>
+
+<simpara>Takový člověk, který Mi slouží s neochvějnou oddaností a je nad <foreignphrase>gunami</foreignphrase>, je způsobilý stát se <foreignphrase>brahma</foreignphrase>. </simpara>
+
+<simpara>Neboť Já jsem Sídlem <foreignphrase>brahma</foreignphrase> - Nesmrtelného a Neměnného, věčné <foreignphrase>dharmy</foreignphrase> a absolutní blaženosti.</simpara>
+
+<!-- JÓGA ROZDĚLENÍ TŘÍ <FOREIGNPHRASE>GUN</FOREIGNPHRASE> -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga nejvyššího Já</title>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Hovoří se o nesmrtelném stromu <foreignphrase>Ašvatta</foreignphrase>, majícím kořeny nahoře a větve dole. Jeho listy jsou védy, a ten, kdo to ví, je znalcem véd.</simpara>
+
+<simpara>Jeho větve se rozprostírají dole i nahoře a jsou živeny <foreignphrase>gunami</foreignphrase>; předměty smyslů jsou jeho pupeny a dole, ve světě lidí, rozprostírá své kořeny plodící činnost.</simpara>
+
+<simpara>Ten strom zde v této podobě není viditelný, ani jeho konec, ani původ, ani existence. Po rozetnutí tohoto hluboce zakořeněného stromu <foreignphrase>Ašvatty</foreignphrase> ostrou sekerou nepřipoutanosti</simpara>
+
+<simpara>by mělo být usilováno o dosažení cíle. Cílem je dojít tam, odkud se znovu nevracejí. </simpara>
+<simpara>Hledám útočiště v prvotním <foreignphrase>Purušovi</foreignphrase>, z něhož vytryskla věčná aktivita.</simpara>
+
+<simpara>Osvobozeni od pýchy a klamu po přemožení zla připoutanosti lidé nežijící v iluzi, přebývající ve vlastním Já s nadobro utišenými touhami, oproštěni od párů protikladů, jako jsou radost a bolest, dosahují Věčného cíle.</simpara>
+
+<simpara>Moje útočiště, neosvětlené ani sluncem, ani měsícem, ani ohněm, je Můj svrchovaný domov a kdo tam přijde, už se zpátky nevrací.</simpara>
+
+<simpara>Věčná část Mne se stala džívou ve světě lidských duší. Přitahuje smysly s myslí jako šestým smyslem a přebývá v <foreignphrase>prakrti</foreignphrase>.</simpara>
+
+<simpara>Když pán takto na sebe bere tělo a když jej opouští, bere je sebou, jako vítr odnáší pryč vůně od jejich zdrojů.</simpara>
+
+<simpara>Jako vládce nad sluchem, zrakem, hmatem, chutí a také myslí, on zakouší předměty.</simpara>
+
+<simpara>Lidé spočívající v klamu nevidí, kdo zůstává a kdo odchází a užívá, a kdo je spojený s <foreignphrase>gunami</foreignphrase>. Vidí to jen ti, kteří mají vnitřní oko moudrosti.</simpara>
+
+<simpara>Ti, kteří vybaveni jógou usilují, poznávají, že přebývá ve vlastním já; lidé neinteligentní a nezjemnělí jej nevidí ani když o to usilují.</simpara>
+
+<simpara>Světlo sídlící v slunci osvěcuje celý svět i to, co je v měsíci a v ohni - věz, že to světlo je Moje.</simpara>
+
+<simpara>Vcházeje do země udržuji všechny bytosti Svou energií a stávaje se měsícem vyživuji jeho mízou všechny byliny.</simpara>
+
+<simpara>Jako Vaišvanara přebývaje v těle živých bytostí ve spojení s pránou a apánou strávím čtyři druhy jídel.</simpara>
+<!-- 14 -->
+<simpara>A jsem usídlen v srdcích všech; ode Mne pochází paměť a vědění stejně jako jejich ztráta. Já jsem vpravdě to, co je poznáváno jako veškeré védy: Jsem vskutku autorem védanty i znalcem véd.</simpara>
+
+<simpara>Ve světě jsou dva <foreignphrase>Purušové</foreignphrase> - smrtelný a nesmrtelný. Všechny bytosti jsou smrtelným <foreignphrase>Purušou</foreignphrase> a Kutastha je jméno pro nesmrtelného <foreignphrase>Purušu</foreignphrase>.</simpara>
+
+<simpara>Odlišný je však Nejvyšší <foreignphrase>Puruša</foreignphrase>, nazvaný Nejvyšší Já, nezničitelný Pán, který prostupuje a udržuje tři světy.</simpara>
+
+<simpara>Jelikož překračuji všechno smrtelné a jsem dokonce nad nesmrtelným, proto jsem známý ve světě i ve védách jako Purušóttama, Nejvyšší <foreignphrase>Puruša</foreignphrase>.</simpara>
+
+<simpara>Kdo oproštěn od klamu Mě zná jako Nejvyšší Já, ten zná vše a celým srdcem Mě uctívá, ó Bhárato.</simpara>
+
+<simpara>Tímto jsem předal nejhlubší učení, ó reku bez viny. Člověk, který to zná, je osvícen, ó Bhárato, a všechny jeho povinnosti jsou splněny.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je patnáctým pojednáním, nazvaným JÓGA NEJVYŠŠÍHO JÁ -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga rozdílu mezi božským a démonickým</title>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>Nebojácnost, ryzost srdce, vytrvalost v poznávání a v józe, dobročinnost, ovládání smyslů, obětování, studium svatých spisů, prostota a přímost,</simpara>
+
+<simpara>neubližování, pravda, oproštění od hněvu, odříkání, ryzost, nepomlouvání, soucit s tvory, nepřítomnost chamtivosti, jemnost, skromnost a nevrtkavost,</simpara>
+
+<simpara>živost, odpouštění, statečnost, ryzost, nepřítomnost nenávisti a pýchy - to všechno je vlastní tomu, kdo se narodil, aby dosáhl božského stavu, ó Bhárato.</simpara>
+
+<simpara>Okázalost, arogance a domýšlivost, hněv a také hrubost a nevědomost jsou vlastnosti toho, kdo se narodil pro démonický stav, ó Partho.</simpara>
+
+<simpara>Božskými vlastnostmi jsou míněny ty, které vedou k osvobození, démonickými ty, které končí otroctvím. Nermuť se, ó Pándavo, ty ses narodil pro božský stav.</simpara>
+
+<simpara>Na tomto světě jsou dva typy bytostí: božské a démonické. Božské jsem podrobně popsal, nyní ode Mne vyslyš, jaké jsou ty démonické, ó Partho!</simpara>
+
+<simpara>Lidé démonického typu nevědí co dělat a co nedělat. Nelze se v nich dopátrat ani čistoty, ani správného jednání, ani pravdy.</simpara>
+
+<simpara>Prohlašují, že vesmír je neskutečný, bez morální základny, bez Boha. Říkají, že vznikl z páření na základě chtíče - jak jinak by mohl vzniknout?</simpara>
+
+<simpara>V zajetí takového názoru povstávají tyto zničené duše chabého intelektu a krutých činů jako nepřátelé světa, usilující o jeho zničení.</simpara>
+
+<simpara>Plni neukojitelných tužeb, pokrytectví, pýchy a arogance se v klamu drží špatných názorů a pracují s nečistými úmysly.</simpara>
+
+<simpara>Svůj život prožívají v těžkých starostech, které končí až smrtí. Za nejvyšší cíl považují ukojení chtíče a jsou přesvědčeni, že to je vše.</simpara>
+
+<simpara>Svázáni tisíci pouty nejrůznějších nadějí, odevzdáni chtíči a zlosti, nepravými cestami usilují o shromažďování velkého bohatství, aby si mohli zajišťovat smyslová potěšení.</simpara>
+
+<simpara><quote>Dnes jsem to a to získal, ještě si splním to a to přání. Toto bohatství je moje a bude mi patřit i v budoucnosti.</quote></simpara>
+
+<simpara><quote>Já jsem zabil svého nepřítele a zabiji i další. Já jsem pánem, tím, který užívá; jsem úspěšný, mocný a šťastný.</quote></simpara>
+
+<simpara><quote>Jsem bohatý a urozený. Kdo se mi může rovnat? Já budu obětovat, já budu rozdávat almužny, já se budu radovat,</quote> Takto oklamáni nevědomostí,</simpara>
+
+<simpara>zmateni mnohou fantazií, chyceni v pasti klamu, propadli ukojování chtíče a propadají se do odporného pekla.</simpara>
+
+<simpara>Namyšlení, tvrdošíjní, plní pýchy a opojení bohatstvím konají oběti pro okázalost, aniž dodržují předpisy pro obřady.</simpara>
+
+<simpara>Propadlí sobectví, moci, nestoudnosti, rozkoši a pomstě tito zlomyslní lidé Mě nenávidí ve vlastním těle i v těle druhých.</simpara>
+
+<simpara>Tyto kruté a nenávistné jedince, nejhorší mezi lidmi na světě, tyto zloduchy Já vrhám navždy jen do démonických lůn.</simpara>
+
+<simpara>Tak tyto klamané duše vcházejí - jedno zrození po druhém - do démonického lůna, aniž Mě kdy dosáhnou, ó Kauntéjo. Naopak klesají do stále nižšího stavu.</simpara>
+
+<simpara>Peklo ničící vlastní já má tři brány: chtíč, hněv a chamtivost. Proto je třeba všech tří se vzdát.</simpara>
+
+<simpara>Člověk osvobozený od výše jmenovaných tří bran vedoucích do temnot, ó Kauntéjo, praktikuje to, co mu prospívá, a odchází k Nejvyššímu Dobru.</simpara>
+
+<simpara>Avšak ten, který nedbá přikázání svatých spisů, jehož činy jsou podněcovány chtěním, nedosáhne dokonalosti ani štěstí, ani Nejvyššího cíle.</simpara>
+
+<simpara>Proto se v tom, co máš a nemáš dělat, řiď autoritou svatých spisů. Po poznání ustanovení, hlásaných ve svatých spisech, bys je měl zde uskutečňovat.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je šestnáctým pojednáním, nazvaným JÓGA ROZDÍLU MEZI BOŽSKÝM A DÉMONICKÝM -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga třetí víry</title>
+
+<para><phrase>Ardžuna řekl:</phrase></para>
+
+<simpara>Jaké povahy, ó Krišno, je povaha těch, kteří nedodržují ustanovení šáster, ale přesto vykonávají oběti s vírou? Je jejich oddanost povahy <foreignphrase>sattvické</foreignphrase>, <foreignphrase>radžasické</foreignphrase> nebo <foreignphrase>tamasické</foreignphrase>?</simpara>
+
+<para><phrase>Milostiplný Pán řekl:</phrase></para>
+
+<simpara>U vtělených rozlišujeme tři druhy víry podle povahy, a to <foreignphrase>sattvickou</foreignphrase>, <foreignphrase>radžasickou</foreignphrase> a <foreignphrase>tamasickou</foreignphrase>. Vyslechni, co ti o tom povím:</simpara>
+
+<simpara>Víra každého člověka, ó Bhárato, se řídí podle jeho vrozené povahy. Člověk je takový, jaká je jeho víra. Vpravdě jaká víra, takový člověk.</simpara>
+
+<simpara><foreignphrase>Sattvičtí</foreignphrase> lidé uctívají <foreignphrase>dévy</foreignphrase>, <foreignphrase>radžasičtí</foreignphrase> uctívají <foreignphrase>jakši</foreignphrase> a <foreignphrase>rákšasy</foreignphrase>, a ostatní, to znamená <foreignphrase>tamasičtí</foreignphrase>, uctívají préty a zástupce bhutů (to, co bylo stvořeno, živly).</simpara>
+
+<simpara>Lidé provádějící násilně odříkání, nepřikázané ve svatých spisech, oddávajíce se pokrytectví a egoismu, hnáni mocí chtíče a lpění</simpara>
+
+<simpara>ve své pošetilosti mučí orgány svého těla i Mne, který v jejich těle sídlím. Věz, že jejich rozhodnutí je démonické.</simpara>
+
+<simpara>I potrava, všem bytostem milá, je trojího druhu stejně jako oběti, odříkání a dary. Vyslyš nyní, čím se od sebe liší.</simpara>
+
+<simpara><foreignphrase>Sattvičtí</foreignphrase> jedinci mají rádi jídla, která zvyšují vitalitu, dávají energii, podporují ráznost a zdraví, radost a veselou náladu; jsou chutná a mírně olejnatá, výživná a příjemná.</simpara>
+
+<simpara>Jídla hořká, kyselá, slaná a příliš ostrá, dráždivá, suchá a pálivá mají v oblibě lidé <foreignphrase>radžasičtí</foreignphrase>. Taková jídla působí bolest, zármutek a nemoc.</simpara>
+
+<simpara><foreignphrase>Tamasičtí</foreignphrase> jedinci mají rádi to, co je okoralé, zapáchající, zbytky z předešlého dne, odpadky a nečistotu.</simpara>
+
+<simpara>Oběť konaná podle předpisů lidmi, kteří od ní neočekávají žádné ovoce, s myslí soustředěnou jen na <foreignphrase>jadžňu</foreignphrase> konanou pro <foreignphrase>jadžňu</foreignphrase> samotnou, je <foreignphrase>sattvická</foreignphrase>.</simpara>
+
+<simpara>Vše, co se koná s očekáváním odměny nebo pro oslavu vlastního jména, věz, ó nejlepší z Bháratů, že je to <foreignphrase>jadžňa radžasická</foreignphrase>.</simpara>
+
+<simpara>Ta <foreignphrase>jadžňa</foreignphrase> je prohlašována za <foreignphrase>tamasickou</foreignphrase>, která je v protikladu s tím, co bylo ustanoveno, která se koná bez víry a bez manter, při níž nejsou rozdávány pokrmy a dary.</simpara>
+
+<simpara>Uctívání bohů, dvakrát narozených, učitelů a moudrých, čistota, poctivost, zdrženlivost a neubližování - tomu všemu se říká askeze<footnote><simpara>Anglický výraz <emphasis>austerity</emphasis> může značit askezi, odříkání, přísnou prostotu, střízlivost i duchovní či náboženské praktiky.</simpara></footnote> těla.</simpara>
+
+<simpara>Řeč, která nerozčiluje, je pravdivá, příjemná a prospěšná a také praxe recitace svatých veršů se označuje jako askeze řeči.</simpara>
+
+<simpara>Jasná mysl, jemnost, mlčenlivost, sebeovládání a ryzost osobnosti se nazývá mentální askezí.</simpara>
+
+<simpara>Toto trojí odříkání praktikované vyrovnanými jedinci s nejhlubší vírou a bez očekávání ovoce se označuje za <foreignphrase>sattvické</foreignphrase>.</simpara>
+
+<simpara>Askeze, praktikovaná s úmyslem získat uznání, úctu a vážnost s vystavováním se na odiv, je zde označena jako <foreignphrase>radžasická</foreignphrase>; je nestálá a pomíjivá.</simpara>
+
+<simpara>Askeze prováděná s pošetilou tvrdošíjností, se sebetrýzněním nebo s úmyslem zničit druhého, je prohlašována za <foreignphrase>tamasickou</foreignphrase>.</simpara>
+
+<simpara>Dar uštědřený tomu, kdo ho nemůže oplatit, jen z pocitu, že podarovat je povinností, je-li dán na správném místě ve správný čas člověku, kdo je ho hoden, takový dar je považován za <foreignphrase>sattvický</foreignphrase>.</simpara>
+
+<simpara>Avšak dar, uštědřený s úmyslem získat něco nazpět nebo s očekáváním zisku nebo dávaný nepřejícně, se přičítá <foreignphrase>radžasu</foreignphrase>.</simpara>
+
+<simpara>Dar, uštědřený na nesprávném místě nebo v nesprávnou dobu osobě, která ho není hodna, bez úcty nebo dokonce urážlivě, je prohlašovaný za <foreignphrase>tamasický</foreignphrase>.</simpara>
+
+<simpara><quote>ÓM TAT SAT</quote> je trojí označení <foreignphrase>brahma</foreignphrase>. Z něho za starých časů vznikli bráhmana (znalci manter, duchovní aspiranti), védy a <foreignphrase>jadžni</foreignphrase>.</simpara>
+
+<simpara>Proto následovníci véd vyslovují <quote>ÓM</quote> při všech obětech, darech a při každém náboženském úkonu tak, jak je ustanoveno ve svatých spisech.</simpara>
+
+<simpara>Ti, kdož bez očekávání plodů svých činů usilují o osvobození (mókša), vyslovují <quote>TAT</quote> při obětování, náboženských praktikách a udílení darů.</simpara>
+
+<simpara>Slovo <quote>TAT</quote> vyjadřuje Realitu a dobrotu. Proto, ó Partho, se používá ve smyslu prospěšného činu.</simpara>
+
+<simpara>Vytrvalosti při obětování, náboženských úkonech a udílení darů se také říká <quote>SAT</quote>, stejně jako všem činům, konaným pro Pána.</simpara>
+
+<simpara>Cokoli je obětováno, darováno nebo konáno bez víry i jakékoli odříkání praktikované bez víry je označeno za ASAT, ó Partho. Nemá to žádnou váhu ani v tomto životě, ani po něm.</simpara>
+
+<!-- V upanišadě Bhagavad Gíty poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardřunou je sedmnácté pojednání, nazvané JÓGA TROJÍ VÍRY -->
+  </chapter>
+
+  <chapter>
+    <title>Jóga osvobození cestou odříkání</title>
+
+<para><phrase>Ardžuna pravil:</phrase></para>
+
+<simpara>Toužím dozvědět se pravdu co je <foreignphrase>sanjása</foreignphrase>, ó Hrišikéšo, a také co je <foreignphrase>tjága</foreignphrase>, ó Zničiteli Kéši.</simpara>
+
+<para><phrase>Milostiplný Pán odpověděl:</phrase></para>
+
+<simpara>Odříkání se kámjakarmy (díla a oběti konané pro uspokojení vlastních přání a potřeb) mudrci nazývají <foreignphrase>sanjásou</foreignphrase>. Vzdání se plodů veškeré práce prohlašují moudří za <foreignphrase>tjágu</foreignphrase>.</simpara>
+
+<simpara>Někteří mudrci říkají, že by člověk měl opustit všechnu činnost, maje ji za zlo, zatímco druzí říkají, že <foreignphrase>jadžni</foreignphrase>, udílení darů a praktik odříkání se člověk vzdát nemá.</simpara>
+
+<simpara>Vyslyš nyní ode Mne pravdu, ó nejlepší z Bháratijců, o takovém opouštění. Opuštění, ó nejlepší z lidí, je trojího druhu.</simpara>
+
+<simpara>Nikdo by neměl upouštět od obětování, od dobročinnosti a praktik odříkání, ale měl by je naopak konat. <foreignphrase>Jadžňa</foreignphrase>, udělování darů, a odříkání moudrého člověka očišťují.</simpara>
+
+<simpara>Ale i tyto činnosti by se měly konat bez připoutanosti a nároku na plody, ó Partho. O tom jsem skálopevně přesvědčen.</simpara>
+
+<simpara>Zanechat plnění svých povinností je skutečně nesprávné. Takové upouštění od činnosti z nevědomosti je označováno za <foreignphrase>tamasické</foreignphrase>.</simpara>
+
+<simpara>Ten, kdo ze strachu z tělesné námahy upouští od činnosti, protože by mu mohla způsobit bolest, se dopouští <foreignphrase>radžasického</foreignphrase> vzdávání se, z čehož mu nevyplyne žádný zisk.</simpara>
+
+<simpara>Pokud je jakákoli povinná práce konaná jen proto, že je nutné ji udělat, Ardžuno, bez lpění a se vzdáváním se jejích plodů, takové vzdání se je považováno za <foreignphrase>sattvické</foreignphrase>.</simpara>
+
+<simpara>Zříkající se, je-li <foreignphrase>sattvický</foreignphrase>, s rozptýlenými pochybnostmi a pevný ve svém poznání, nebude žádnou nepříjemnou práci nenávidět, ani nebude na žádné příjemné lpět.</simpara>
+
+<simpara>Je vskutku nemožné pro vtělenou bytost, aby se úplně vzdala činnosti. Avšak ten, kdo se vzdal ovoce činu, je považován za člověka, který se zřekl.</simpara>
+
+<simpara>Trojí ovoce činů - špatné, dobré a smíšené - přichází po smrti těm, kteří se nezřekli, ale žádné z nich už nikdy nečeká toho, kdo se zřekl.</simpara>
+
+<simpara>Vyslyš ode Mne, ó mocný ve zbrani, o pěti faktorech působících při výkonu jakéhokoli činu podle učení <foreignphrase>Sámkhji</foreignphrase> (filozofický systém hlásající, že svět je harmonický produkt paradoxních dualit s vrozenou harmonií světa), která je zakončením vší činnosti.</simpara>
+
+<simpara>Jsou to: tělo, činitel, smysly, jejich různé funkce a na pátém místě také božstva, jež jim vládnou.</simpara>
+
+<simpara>Jakoukoli činnost člověk provádí svým tělem, řečí nebo myslí, ať je správná, či nesprávná, každá byla zapříčiněna těmito pěti faktory.</simpara>
+
+<simpara>Jelikož je tomu tak, člověk s převrácenou myslí, který vinou nedokonalého porozumění považuje za činitele vlastní Já - Absolutno, takový člověk nevidí vůbec nic.</simpara>
+
+<simpara>Ten, kdo je osvobozen od pojmu egoismu a jehož porozumění není ničím poskvrněné, i když tyto lidi zde zabije, přece nezabíjí, ani není ničím vázaný.</simpara>
+
+<simpara>Poznání, předmět poznání a poznávající dohromady tvoří trojici podnětů k činu; nástroj, předmět a činitel jsou tři základní složky činnosti.</simpara>
+
+<simpara>Podle vědy o <foreignphrase>gunách</foreignphrase> poznání, čin a činitel mohou být pouze trojího druhu, lišící se podle jednotlivých <foreignphrase>gun</foreignphrase>. Vyslechni si i o rozdílech mezi nimi. </simpara>
+
+<simpara>Poznání, jímž jediné nesmrtelné Jsoucno je spatřováno ve všech existující bytostech jako nerozdělené v rozděleném, věz, že takové poznání je <foreignphrase>sattvické</foreignphrase>.</simpara>
+
+<simpara>Ale poznání, jímž člověk vidí ve všech bytostech mnohočetná nejrůznější jsoucna, jedno od druhého se lišící, věz, že takové poznání je <foreignphrase>radžasické</foreignphrase>.</simpara>
+
+<simpara>Poznání lpící na jednom jediném úkazu jakoby se vztahoval na celek, postrádající logiku, nezakládající se na pravdě a navíc malicherné, takové poznání je prohlašováno za <foreignphrase>tamasické</foreignphrase>.</simpara>
+
+<simpara>Čin, předem určený, vykonaný bez připoutanosti, lásky či nenávisti člověkem, který netouží po ovoci činu, je prohlašován za <foreignphrase>sattvický</foreignphrase>.</simpara>
+
+<simpara>Avšak aktivita člověka dychtícího po splnění svých přání anebo konaná z egoismu či s velikým úsilím je označena jako <foreignphrase>radžasická</foreignphrase>.</simpara>
+
+<simpara>Činnost, do níž se pouštějí lidé podléhající klamu bez ohledu na schopnosti, následky, ztráty a zranění, je <foreignphrase>tamasická</foreignphrase>.</simpara>
+
+<simpara>Činitel oproštěný od připoutanosti, nesobecký, odhodlaný a zanícený, nedotčený ani úspěchem ani nezdarem, se nazývá <foreignphrase>sattvický</foreignphrase>.</simpara>
+
+<simpara>Vášnivý, lačný po ovoci činů, chamtivý, krutý, nečistý, podléhající radosti i zármutku - o takovém činiteli se říká, že je <foreignphrase>radžasický</foreignphrase>.</simpara>
+
+<simpara>Nevyrovnaný, neomalený, tvrdohlavý, podvodný, zlomyslný, netečný, malomyslný, otálivý - takový činitel se nazývá <foreignphrase>tamasický</foreignphrase>.</simpara>
+
+<simpara>Nyní vyslyš Můj vyčerpávající popis trojího druhu porozumění a stálosti v závislosti na každé jednotlivé <foreignphrase>guně</foreignphrase>, ó Dhanandžájo.</simpara>
+
+<simpara>Intelekt cvičený na cestě práce a odříkání, rozlišující mezi správnou a nesprávnou činností, mezi strachem a nebojácností, upoutaností a osvobozením, takový intelekt, ó Partho, je <foreignphrase>sattvický</foreignphrase>.</simpara>
+
+<simpara>Intelekt s překrouceným pochopením toho, co je <foreignphrase>dharma</foreignphrase> a co <foreignphrase>adharma</foreignphrase>, co by se mělo a co by se nemělo dělat - je <foreignphrase>radžasický</foreignphrase>, ó Partho.</simpara>
+
+<simpara>Intelekt obalený temnotou, považující <foreignphrase>adharmu</foreignphrase> za <foreignphrase>dharmu</foreignphrase> a spatřující všechno převráceně je <foreignphrase>tamasický</foreignphrase>, ó Partho.</simpara>
+
+<simpara>Neochvějná stálost, která prostřednictvím jógy usměrňuje funkci mysli, pránu a smysly, taková stálost, ó Partho, je <foreignphrase>sattvická</foreignphrase>.</simpara>
+
+<simpara>Avšak stálost, s níž se někdo drží <foreignphrase>dharmy</foreignphrase>, <foreignphrase>kámy</foreignphrase> a <foreignphrase>arthy</foreignphrase> z touhy po jejich ovoci, na němž lpí, taková stálost, ó Partho, je <foreignphrase>radžasická</foreignphrase>.</simpara>
+
+<simpara>Stálost hloupého člověka, pro niž se nevzdává spánku, strachu, zármutku, zoufalství a také namyšlenosti, je <foreignphrase>tamasická</foreignphrase>, ó Partho.</simpara>
+
+<simpara>A nyní, ó vůdče Bháratijců, ode Mne vyslyš o třech druzích štěstí. Zaprvé je to štěstí, které člověk ke své radosti najde po dlouhé době cvičení a v němž končí všechny jeho útrapy,</simpara>
+
+<simpara>které se zpočátku podobá jedu, ale na konci je jako nektar. O tomto štěstí se říká, že je <foreignphrase>sattvické</foreignphrase>. Je zrozené z průzračnosti intelektu způsobené realizací Sebe.</simpara>
+
+<simpara>Štěstí pocházející z kontaktu smyslů s jejich objekty, jež je zpočátku jako nektar a nakonec se proměňuje v jed, je považováno za <foreignphrase>radžasické</foreignphrase>.</simpara>
+
+<simpara>Štěstí klamající vlastní já jak na začátku, tak na konci, pramenící ze spánku, lenivosti a mylného chápání je prohlašováno za <foreignphrase>tamasické</foreignphrase>.</simpara>
+
+<simpara>Není bytosti na zemi ani na nebi mezi <foreignphrase>dévy</foreignphrase>, která by byla osvobozena od tří <foreignphrase>gun</foreignphrase>, zrozených z <foreignphrase>prakrti</foreignphrase>.</simpara>
+
+<simpara>Povinnosti bráhmanů, kšatrijů a <foreignphrase>vaišjů</foreignphrase>, jakož i <foreignphrase>šudrů</foreignphrase>, ó spalovateli nepřátel, jsou rozděleny podle <foreignphrase>gun</foreignphrase>, které jim jsou vrozené a jsou vlastní jejich povaze.</simpara>
+
+<simpara>Čistota, sebeovládání, prostota, ryzost, odpouštění a také poctivost, poznání, realizace, víra v posmrtnou existenci - to jsou povinnosti bráhmanů, zrozené z povahy, která je jim vlastní.</simpara>
+
+<simpara>Heroismus, síla, pevnost, pohotovost, neprchání z bitvy, štědrost a šlechetnost jsou povinnosti kšatrijů, zrozené z jejich povahy.</simpara>
+
+<simpara>Zemědělství, chov dobytka a obchod jsou povinnosti <foreignphrase>vaišjů</foreignphrase>, zrozené z jejich povahy, a činnost spočívající ve službě je povinností <foreignphrase>šudrů</foreignphrase>, vyplývající z jejich založení.</simpara>
+
+<simpara>Nejvyšší dokonalosti dosáhne člověk, který se oddává své vlastní povinnosti. Nyní si vyslechni, jak plněním vlastní povinnosti dosahuje nejvyšší dokonalosti.</simpara>
+
+<simpara>Tím, že plněním svých povinností člověk uctívá Nejvyššího, z něhož se všechny bytosti vyvíjely a Jímž je všechno prostoupeno, dosáhne dokonalosti.</simpara>
+
+<simpara>Lepší je vlastní <foreignphrase>dharma</foreignphrase>, třeba nedokonalá, než <foreignphrase>dharma</foreignphrase> druhého dobře vykonaná. Kdo plní svou povinnost předurčenou jeho založením, nedopouští se žádného hříchu.</simpara>
+
+<simpara>Nikdo by se neměl zříkat povinnosti, ke které se narodil, ó Kauntéjo, i když je provázena zlem, neboť každé podnikání je obaleno zlem jako oheň kouřem.</simpara>
+
+<simpara>Ten, jehož intelekt není k ničemu připoutaný, kdo si podrobil své jáství, u něhož vymizelo chtění, ten s odříkáním dosáhne svrchovaného stavu osvobození od činnosti.</simpara>
+
+<simpara>V krátkosti se nyní ode Mne pouč, ó Kauntéjo, jak po dosažení takové dokonalosti člověk dosáhne <foreignphrase>brahma</foreignphrase>, dovršení svrchovaného poznání.</simpara>
+
+<simpara>Obdařený jasným porozuměním člověk, který drží své jáství pevně na uzdě, odvrací se od zvuků a jiných objektů, není k ničemu přitahován, ani necítí k ničemu odpor,</simpara>
+
+<simpara>žije o samotě, přijímá jen málo potravy, se ztišenou řečí, myslí a se ztišeným tělem trvale se věnuje meditaci a koncentraci, je bez vášní,</simpara>
+
+<simpara>zbavený egoismu, násilí, domýšlivosti, chtění, nepřátelství, majetku, osvobozený od pojmu <quote>moje</quote> a pokojný, je způsobilý stát se <foreignphrase>brahma</foreignphrase>.</simpara>
+
+<simpara>Stávaje se <foreignphrase>brahma</foreignphrase>, s myslí projasněnou, netruchlí, ani si nic nepřeje a chová se stejně ke všem bytostem. Tak ke Mně získá nejvyšší oddanost.</simpara>
+
+<simpara>Skrze oddanost Mě pozná vpravdě, pozná co a kdo Já jsem. A poté, co Mě vpravdě poznal, do Mne neprodleně vstoupí.</simpara>
+
+<simpara>Pokračuje dál konáním všech činností bez rozdílu, nalézaje útočiště ve Mně, s Mojí milostí dosáhne nezničitelný věčný Domov.</simpara>
+
+<simpara>Odevzdávej Mi ve své mysli všechny činy. Považuj Mě za Nejvyšší cíl a pomocí buddhijógy (sjednocení se s Bohem prostřednictvím intelektu) měj mysl trvale soustředěnou na Mne.</simpara>
+
+<simpara>Když soustředíš mysl na Mne, s Mou milostí překonáš všechny překážky, ale když Mě pro svůj egoismus nebudeš slyšet, zahyneš.</simpara>
+
+<simpara>Pokud jsi plný egoismu a pomyslíš si: <quote>Nebudu bojovat</quote>, je toto tvé rozhodnutí zcela marné, neboť tvá vrozená povaha tě donutí.</simpara>
+
+<simpara>Vázán svou vlastní karmou, zrozenou z tvé přirozenosti, i to, co si vlivem klamu nepřeješ dělat, i to budeš donucen konat proti své vůli - a nic ti, Kauntéjo, nepomůže.</simpara>
+
+<simpara>Pán přebývá v srdcích všech tvorů, ó Ardžuno, a pomocí Své máji působí rotaci všech bytosti, jakoby byly upevněné na nějakém stroji.</simpara>
+
+<simpara>Celým svým srdcem hledej útočiště jedině u Něho, ó Bhárato. S Jeho milostí získáš Svrchovaný mír a dojdeš do věčného Domova. 62</simpara>
+<simpara>Tímto jsem ti vyjevil moudrost hlubší než všechny hlubiny. Rozjímej o ní a jednej podle své volby.</simpara>
+
+<simpara>Vyslyš znovu Mé nejvyšší slovo, nejhlubší ze všech, Tys Můj milovaný a máš věrné srdce, proto ti povím, co je pro tebe dobré.</simpara>
+
+<simpara>Soustřeď svou mysl na Mne, buď Mi oddán, obětuj Mi a klaň se Mi; tak přijdeš ke Mně. To ti slibuji i zaručuji, neboť jsi Mi drahý.</simpara>
+
+<simpara>Vzdej se každé <foreignphrase>dharmy</foreignphrase> a uchyl se pouze ke Mně. Já tě osvobodím od všech hříchů; nermuť se.</simpara>
+
+<simpara>Avšak nikdy to, cos vyslechl, neříkej nikomu, kdo nepraktikoval žádné odříkáni, ani tomu, v němž není oddanost, ani tomu, kdo nevykonává službu, ani tomu, kdo špatně o Mně hovoří.</simpara>
+
+<simpara>Ten, kdo s nejvyšší oddaností ke Mně bude Mé oddané učit této hluboké výsostně důležité filozofii, bez pochyb přijde jen ke Mně.</simpara>
+
+<simpara>A nikdo z lidí mi neprokazuje milejší službu a nikdo na zemi Mi není dražší než on. </simpara>
+
+<simpara>A každý, kdo tento náš svatý dialog bude studovat, už tím Mě uctíval obětí poznání (<foreignphrase>džňána jadžňa</foreignphrase>). O tom jsem přesvědčen.</simpara>
+
+<simpara>A ten, kdo toto vyslechne, kdo je plný víry a prost posměchu - i on bude osvobozen od zla a dosáhne příznivých oblastí spravedlivých.</simpara>
+
+<simpara>Vyslechls to, Partho, pozorně? Byl odstraněn klam tvé nevědomosti, ó Dhanandžájo?</simpara>
+
+<para><phrase>Ardžuna odvětil:</phrase></para>
+
+<simpara>Můj klam je odstraněn. Tvou milostí se mi navrátila paměť, ó Ačjuto. Jsem odhodlán a bez pochybnosti. Budu jednat podle Tvých slov. </simpara>
+
+<para><phrase>Sandžája řekl:</phrase></para>
+
+<simpara>Vyslechl jsem tento nádherný dialog mezi Vásudévou a velkodušným Parthou, při němž mi úžasem vstávaly vlasy.</simpara>
+
+<simpara>Vjásovou milostí jsem slyšel nejvyšší a nejhlubší jógu přímo z úst Krišny, Pána jógy. </simpara>
+
+<simpara>Jak si, ó králi, tento úžasný svatý dialog mezi Kéšavou a Ardžunou stále znovu připomínám, znovu a znovu se z něho raduji.</simpara>
+
+<simpara>A pokaždé, když si vzpomenu na nejpodivuhodnější Hariho formu, jsem jat velkým úžasem, ó králi, a vždy se znovu a znovu raduji.</simpara>
+
+<simpara>Kdekoli je Krišna, Pán jógy, a kdekoli je Partha, vládce luku, tam je prosperita, vítězství, rozšiřování a zdravá prozíravost; o tom jsem přesvědčen.</simpara>
+
+<!-- Jeden oddíl Šrí Máhábharaty, sestávající ze statisíce veršů sepsaných Vjásou, se jmenuje Bhíšma Parva a obsahuje upanišadu Bhagavad Gítu, v níž poznání <foreignphrase>brahma</foreignphrase> - Nejvyššího, ovládání jógy a dialog mezi Šrí Krišnou a Ardžunou je osmnáctým pojednáním, nazvaným JÓGA OSVOBOZENÍ CESTOU ODŘÍKÁNÍ -->
+  </chapter>
+  </part>
+</book>
+
+<!-- LocalWords:  Bhagavad Gíta Svámího Čidbhavánandy neznalce upanišadách Šrí
+-->
+<!-- LocalWords:  upanišad Krišnou Ardžunou brahma Gíty Ardžuna Íšvara Krišna
+-->
+<!-- LocalWords:  nirgunabrahma pradžňánam karmajóga rádžajóga Bhaktijóga Gítě
+-->
+<!-- LocalWords:  Džňánajóga jogínských Kurukšétra Kuruovci Pánduovci Kuruovců
+-->
+<!-- LocalWords:  Pánduovců kuruovská Krišnovými dhjánam Gítou Gíto Nárájanou
+-->
+<!-- LocalWords:  Vjásou Máhábharaty advaity Vjáso Krišnovi Paridžátovi Kamsy
+-->
+<!-- LocalWords:  Kalpataru splniteli džanamudry upanišady poživači Vásudévy
+-->
+<!-- LocalWords:  Chanury Dévakí Mádhavovi Varuna Rudra Marutové angy sámavédy
+-->
+<!-- LocalWords:  pada krama dévů asurů démónů Ardžunova Dhrtaráštra Sandžájo
+-->
+<!-- LocalWords:  Pándua Kurukšétře Sandžája Durjódhana pánduovské Drónovi Káší
+-->
+<!-- LocalWords:  pánduovských Drupadův Ardžuny Bhímy Jujudhana Viráta Drupada
+-->
+<!-- LocalWords:  Dhrštakétu Čekitana Purudžit Kuntibhódža Saibja Judhamanju
+-->
+<!-- LocalWords:  Uttamaudža Saubhadra Draupadiho Bhíšma Kripa Ašvattama Bhíšmu
+-->
+<!-- LocalWords:  Vikarna Saumadatti Bhíšmou Durjódhanovi Mádhava Pándava Kuntí
+-->
+<!-- LocalWords:  Pančadžanju Hrišikéša Dévattu Dhanandžája Vrikódara Paundru
+-->
+<!-- LocalWords:  Judišthira Anantavidžaju Nakula Sahádéva Sughošu Manipušpaku
+-->
+<!-- LocalWords:  Sikhandi Dhrštadjumna Vimta Satjaki vládče Draupadi Subhadry
+-->
+<!-- LocalWords:  Dhrtaráštrových Dhrtaraštrova Hanumána Krišnu Ačjuto Bhárato
+-->
+<!-- LocalWords:  Dhrtaraštrovu Gudakéšovo Bhíšmovi Partho Kuruovce Krišno guny
+-->
+<!-- LocalWords:  Gandiva Góvindo Mádhusúdano Džanardáno Dhrtaráštrovy Mádhavo
+-->
+<!-- LocalWords:  Varšnéjo Dhrtaráštrovi nekladoucího Mádhusúdana Ardžuno Drónu
+-->
+<!-- LocalWords:  Mádhua protiútočit Gudakéša princové zřeci átmána Átmán átmán
+-->
+<!-- LocalWords:  átmánu zrozování kšatriju kšatriové Dhanandžájo odříkající
+-->
+<!-- LocalWords:  Kéšavo samádhi muni muniho gunami prakrti jadžňa Pradžapati
+-->
+<!-- LocalWords:  dévy Dévové jadžni Džanaka gun šraddhá radžóguny Bháraty kusa
+-->
+<!-- LocalWords:  Vivašvatovi Vivašvat Manuovi Ikšvakovi vyhladiteli Parantapo
+-->
+<!-- LocalWords:  adharma dévům pranám spalovateli Pándavo sanjásin džňáním jug
+-->
+<!-- LocalWords:  karmajogínem Sanjásy karmajógy karmajógou rišiové sanjásiny
+-->
+<!-- LocalWords:  sanjásou sankalpa brahmačárin Bháratijců sattvy radžasu mája
+-->
+<!-- LocalWords:  tamasu asura Vásudéva Uctívatelé májou znepokojiteli Purušu
+-->
+<!-- LocalWords:  adhibhutě adhidaivě adhijadžně adhjátma nejvýtečnější Puruša
+-->
+<!-- LocalWords:  adhibhuta adhidaiva adhijadžňa ahdjátma adhidaivata Kauntéjo
+-->
+<!-- LocalWords:  Purušovi sanjásinové Brahmova Brahmův ákáše kalpy rákšasů Rik
+-->
+<!-- LocalWords:  mahátma Kratu Svadha rozdělovatelem Sáman Jadžus rig sáma sat
+-->
+<!-- LocalWords:  jadžur sómy dévové uctívatelé bhutám vaišjové šudrové Manuové
+-->
+<!-- LocalWords:  očišťovatel Nárady Asita Dévaky Vjásy dánavové Purušóttamo
+-->
+<!-- LocalWords:  Gudakéšo Aditjů Višnu Marutů sámavéda Vásava Rudrů Šankara
+-->
+<!-- LocalWords:  jakšasů Vásů Pávaka Brihaspati Skanda Bhrigu monoslabika Nagů
+-->
+<!-- LocalWords:  džapa Ašvatta Nárada gandharvů Čitraratha siddhů Uččaišravas
+-->
+<!-- LocalWords:  Airavata Kamadhuk Kandarpa Vasuki Ananta pitrů Arjama Jama
+-->
+<!-- LocalWords:  Daitjů Prahláda Vainatéja očišťovatelů dvanda Brihat sáman
+-->
+<!-- LocalWords:  Gájatrí Margasirša Vrišnů Vjása zřeců Usana znepokojovateli
+-->
+<!-- LocalWords:  Íšvary Aditji Vásy Rudry Asviny Maruty Máhátmanově Brahmu TAT
+-->
+<!-- LocalWords:  bezpočtem Mahátmo Rudrové Aditjové Vásuové Sadhjové Višvové
+-->
+<!-- LocalWords:  Asvíni Maruti Ušmapasové gandarvů jakšové siddhové pralaji
+-->
+<!-- LocalWords:  Dróna Sutaputra Poraž Savjasačine Džajadrátu Kéšavův Brahmy
+-->
+<!-- LocalWords:  Hrišikéšo Agni Jádavo předčít Tisíciruký Viděls
+-->
+<!-- LocalWords:  Ardžunovi Ardžunu samsáry abhjásajógy abhjásajógu abhjása
+-->
+<!-- LocalWords:  Kšétrou Kšétradžňa kšétru kšétradžňu kšétra kšétrách ákáša
+-->
+<!-- LocalWords:  kšétry Kšétradžni asat kšétrou Máhát Brahmá Brahmanu Sattva
+-->
+<!-- LocalWords:  radžas tamas sattva radžasem tamasem sattvou sattvě tamasičtí
+-->
+<!-- LocalWords:  radžasičtí guně Ašvatty džívou Vaišvanara pránou apánou jakši
+-->
+<!-- LocalWords:  védanty Purušové Purušou Kutastha Purušóttama ukojování préty
+-->
+<!-- LocalWords:  šáster sattvické radžasické tamasické sattvickou radžasickou
+-->
+<!-- LocalWords:  tamasickou Sattvičtí bhutů jadžňu sattvická Bháratů
+-->
+<!-- LocalWords:  radžasická austerity sattvický tamasický mókša sanjása tjága
+-->
+<!-- LocalWords:  Zničiteli Kéši kámjakarmy tjágu radžasického Sámkhji gunách
+-->
+<!-- LocalWords:  tamasická radžasický otálivý adharmu kámy arthy vůdče vaišjů
+-->
+<!-- LocalWords:  kšatrijů šudrů buddhijógy džňána Vyslechls Vásudévou Parthou
+-->
+<!-- LocalWords:  Vjásovou Krišny Kéšavou Hariho Krišnapranam
+-->
+
+<!-- Local Variables: -->
+<!-- buffer-file-coding-system: utf-8 -->
+<!-- End: -->
