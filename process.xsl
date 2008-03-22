@@ -22,10 +22,29 @@
     </emphasis>
   </xsl:template>
 
+  <xsl:template match="db:legalnotice//db:variablelist">
+    <formalpara>
+      <xsl:apply-templates select='db:title'/>
+      <para>
+	<itemizedlist>
+	  <xsl:apply-templates select='db:varlistentry'/>
+	</itemizedlist>
+      </para>
+    </formalpara>
+  </xsl:template>
+  <xsl:template match="db:legalnotice//db:varlistentry">
+    <listitem>
+      <emphasis><xsl:apply-templates select="db:term/text()|db:term/*"/></emphasis>
+      <xsl:apply-templates select="db:listitem/*"/>
+    </listitem>
+  </xsl:template>
+
+
+  <xsl:template match="comment()"/>
+
   <xsl:template match="@*|node()" priority="-1">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
   </xsl:template>
-
 </xsl:stylesheet>

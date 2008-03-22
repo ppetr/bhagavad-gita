@@ -14,6 +14,11 @@
 % If defined, process the options
 \ProcessOptions\relax
 
+\newcommand{\DBKtitle}{Title}
+%\newcommand{\DBKlegalblock}{}
+%\newcommand{\DBKlegaltitle}{}
+% \newcommand{\DBKcopyright}{}
+
 % Needed packages
 \usepackage{float}
 \usepackage{dbk_core}
@@ -40,26 +45,57 @@
 %
 % Latex <revhistory> table
 %
-\newenvironment{DBKrevtable}{
-  \begin{longtable}{ |l|l|l|l| }
-  \hline
-  Revision number & Date & Release Info & Author \tabularnewline
-  \hline
-  \endhead
-}{
-  \end{longtable}
-}
+%% \newenvironment{DBKrevtable}{
+%%   \begin{longtable}{ |l|l|l|l| }
+%%   \hline
+%%   Revision number & Date & Release Info & Author \tabularnewline
+%%   \hline
+%%   \endhead
+%% }{
+%%   \end{longtable}
+%% }
 
+% Redefine how to print the cover page and book infos
+\def\title#1{\renewcommand{\DBKtitle}{#1}}
+\def\DBKcover{
+\vspace*{\stretch{1000}}
+\begin{center}
+  \includegraphics[height=10em,keepaspectratio=true]{graphics/DevanagariAum.eps} \\
+  \vspace*{\stretch{618}}
+  \huge{\textbf{\DBKtitle}}\\ %
+  \ifthenelse{\equal{\DBKsubtitle}{}}{}{
+   \underline{\ \ \ \ \ \ \ \ \ \ \ }\\ %
+  \ \\ %
+  \large{\textbf{\DBKsubtitle}}\\ %
+  }
+\end{center}
+\vspace*{\stretch{1000}}
+}
+\def\maketitle{
+  \DBKcover
+  \newpage
+  {\itshape
+  \if\DBKcopyright\@empty\else
+    \DBKcopyright \\
+  \fi
+  \cleardoublepage
+  \if\DBKlegalblock\@empty\else
+    \DBKlegalblock
+  \fi
+  }
+  %\DBKdomitete
+}
 \newenvironment{DBKlegalnotice}{
+  \vspace*{\stretch{1}}
   \if@twocolumn
     \noindent\small\textit{\DBKlegaltitle}
     \/\bfseries---$\!$
   \else
     \noindent\begin{center}\small\bfseries\DBKlegaltitle
-    \end{center}\begin{quote}\small
+    \end{center}\footnotesize
   \fi
 }{
-  \vspace{0.6em}\par\if@twocolumn\else\end{quote}\fi
+  \vspace{0.6em}\par\if@twocolumn\else\fi
 }
 
 %

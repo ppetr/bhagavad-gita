@@ -17,6 +17,14 @@
    status="draft">
 
   <info>
+    <!--
+    <mediaobject>
+      <imageobject>
+	<imagedata valign="bottom" fileref="graphics/DevanagariAum.eps"
+		   format="EPS" scalefit="1" width="20em" depth="23.8em"/>
+      </imageobject>
+    </mediaobject>
+-->
     <title>Bhagavad Gíta</title>
     <subtitle>podle anglického překladu Svámího Čidbhavánandy</subtitle>
     <!--
@@ -42,8 +50,14 @@
       <para>
 	<inlinemediaobject>
 	  <imageobject>
+	    <imagedata valign="bottom" fileref="cc/by-nc-sa.eps" format="EPS" scalefit="1" width="44px" depth="15.5px"/>
+	  </imageobject>
+	  <imageobject>
+	    <imagedata valign="bottom" fileref="cc/by-nc-sa.svg" format="SVG" scalefit="1" width="44px" depth="15.5px"/>
+	  </imageobject>
+	  <imageobject>
 	    <!-- http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png -->
-	    <imagedata fileref="88x31.png" format="PNG"/>
+	    <imagedata valign="bottom" fileref="cc/88x31.png" format="PNG" scalefit="1" width="44px" depth="15.5px"/>
 	  </imageobject>
 	</inlinemediaobject> Toto dílo je licencováno pod
 	<emphasis>Creative Commons Attribution-Noncommercial-Share
@@ -57,16 +71,16 @@
 	    <varlistentry>
 	      <term>sdílet -</term>
 	      <listitem>
-		<simpara>
+		<para>
 		  kopírovat, distribuovat a veřejně vysílat
 		  dílo,
-		</simpara>
+		</para>
 	      </listitem>
 	    </varlistentry>
 	    <varlistentry>
 	      <term>modifikovat -</term>
 	      <listitem>
-		<simpara>upravovat dílo,</simpara>
+		<para>upravovat dílo,</para>
 	      </listitem>
 	    </varlistentry>
 	  </variablelist>
@@ -75,10 +89,10 @@
 	    <varlistentry>
 	      <term>Označení autorství.</term>
 	      <listitem>
-		<simpara>
+		<para>
 		  Musíte označit autorství díla způsobem určeným autorem
 		  či držitelem licence (avšak ne způsobem který by mohl
-		  naznačovat, že se tito hlásí k či k Vašemu použití
+		  naznačovat, že se tito hlásí k Vám či k Vašemu použití
 		  díla).
 		  <!--
 		      You must attribute the work in the manner specified
@@ -86,47 +100,47 @@
 		      suggests that they endorse you or your use of the
 		      work).
 		  -->
-		</simpara>
+		</para>
 	      </listitem>
 	    </varlistentry>
 	    <varlistentry>
 	      <term>Nekomerčně.</term>
 	      <listitem>
-		<simpara>
+		<para>
 		  Není možno využívat dílo pro komerční účely.
-		</simpara>
+		</para>
 	      </listitem>
 	    </varlistentry>
 	    <varlistentry>
 	      <term>Stejný způsob licencování.</term>
 	      <listitem>
-		<simpara>
+		<para>
 		  Pokud modifikujete, upravujete či rozšiřujete dílo,
 		  můžete výsledné dílo distribuovat pouze pod stejnou či
 		  podobnou licencí.
-		</simpara>
+		</para>
 	      </listitem>
 	    </varlistentry>
 	  </variablelist>
 	  <itemizedlist>
 	    <listitem>
-	      <simpara>
+	      <para>
 		Pro jakékoliv použití či distribuci díla musíte jasně
 		označit licenční podmínky díla. Nejlépe odkazem na
 		webovou stránku Creative Commons: <link
 		xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
-	      </simpara>
+	      </para>
 	    </listitem>
 	    <listitem>
-	      <simpara>
+	      <para>
 		Od jakékoliv z těchto podmínek lze upustit s výslovným
 		souhlasem držitele práv k dílu.
-	      </simpara>
+	      </para>
 	    </listitem>
 	    <listitem>
-	      <simpara>
+	      <para>
 		Podmínky této licence nemohou oslabit či omezit práva autora.
-	      </simpara>
+	      </para>
 	    </listitem>
 	  </itemizedlist>
 	</para>

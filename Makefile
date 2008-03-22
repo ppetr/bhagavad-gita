@@ -1,4 +1,4 @@
-all: output/bhagavad_gita-dblatex.ps output/bhagavad_gita-booklet.pdf
+all: output/bhagavad_gita-dblatex.pdf output/bhagavad_gita-booklet.pdf
 
 bhagavad_gita.dbk: bhagavad_gita.xml process.xsl
 	xsltproc --output $@ process.xsl $<
@@ -19,9 +19,6 @@ output/bhagavad_gita-booklet.ps: output/bhagavad_gita-dblatex.ps
 %.pdf: %.ps
 	ps2pdf14 $< $@
 
-
-output/bhagavad_gita-dblatex.pdf: bhagavad_gita.dbk bhagavadgita.sty
-	dblatex $< -t pdf --texstyle=$(PWD)/bhagavadgita.sty -o $@
 
 tmp/bhagavad_gita.tex: bhagavad_gita.dbk bhagavadgita.sty
 	dblatex $< -t tex --texstyle=$(PWD)/bhagavadgita.sty -o $@
