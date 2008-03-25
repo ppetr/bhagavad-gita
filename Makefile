@@ -17,7 +17,7 @@ output/bhagavad_gita-booklet.ps: output/bhagavad_gita-dblatex.ps
 		> $@
 
 %.pdf: %.ps
-	ps2pdf14 $< $@
+	ps2pdf -dPDFSETTINGS=/printer $< $@
 
 
 tmp/bhagavad_gita.tex: bhagavad_gita.dbk bhagavadgita.sty
