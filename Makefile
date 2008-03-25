@@ -8,6 +8,7 @@ output/bhagavad_gita-dblatex.ps: bhagavad_gita.dbk bhagavadgita.sty
 		-P latex.unicode.use=1 \
 		-P latex.encoding=utf8 \
 		-P latex.class.options="11pt,a5paper" \
+		-P latex.hyperparam="colorlinks=false" \
 		--texstyle=$(PWD)/bhagavadgita.sty
 
 output/bhagavad_gita-booklet.ps: output/bhagavad_gita-dblatex.ps
