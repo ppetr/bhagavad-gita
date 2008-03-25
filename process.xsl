@@ -16,6 +16,27 @@
     </formalpara>
   </xsl:template>
 
+  <!-- double verse -->
+  <xsl:template match="db:simpara[following-sibling::*[1] and not(string(following-sibling::*[1]))]">
+    <formalpara>
+      <title>
+	<xsl:apply-templates mode="number" select="."/>
+	<xsl:text>&#8211;</xsl:text>
+	<xsl:apply-templates mode="number"
+			     select="following-sibling::*[1]"/>
+      </title>
+      <para>
+	<xsl:apply-templates/>
+      </para>
+    </formalpara>
+  </xsl:template>
+  <!-- just skip the empty <simpara> in the second verse -->
+  <xsl:template match="db:simpara[not(string(.))]" />
+  <!-- produce just the number -->
+  <xsl:template match="db:simpara" mode="number">
+    <xsl:number level="single" from="chapter" format="1."/>
+  </xsl:template>
+
   <xsl:template match="db:phrase">
     <emphasis>
       <xsl:apply-templates/>
