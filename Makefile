@@ -1,7 +1,10 @@
-all: output/bhagavad_gita-dblatex.pdf output/bhagavad_gita-booklet.pdf
+all: output/bhagavad_gita-dblatex.pdf output/bhagavad_gita-booklet.pdf output/bhagavad_gita.xhtml
 
 bhagavad_gita.dbk: bhagavad_gita.xml process.xsl
 	xsltproc --output $@ process.xsl $<
+
+output/bhagavad_gita.xhtml: bhagavad_gita.dbk  db2xhtml.xsl
+	xsltproc --output $@ db2xhtml.xsl $<
 
 output/bhagavad_gita-dblatex.ps: bhagavad_gita.dbk bhagavadgita.sty
 	dblatex $< -t ps -o $@ \
