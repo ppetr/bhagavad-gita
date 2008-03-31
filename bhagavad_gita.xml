@@ -47,6 +47,36 @@
     </legalnotice>
     -->
     <legalnotice>
+      <informaltable frame='none' pgwide="0">
+	<tgroup cols="2" rowsep="0" colsep="0">
+	  <colspec align="left" colwidth='50px'/>
+	  <colspec align="justify"/>
+	  <tbody valign="middle">
+	    <row>
+	      <entry>
+		<mediaobject>
+		  <imageobject>
+		    <imagedata valign="bottom" fileref="cc/by-nc-sa.eps" format="EPS" scalefit="1" width="44px" depth="15.5px"/>
+		  </imageobject>
+		  <imageobject>
+		    <imagedata valign="bottom" fileref="cc/by-nc-sa.svg" format="SVG" scalefit="1" width="44px" depth="15.5px"/>
+		  </imageobject>
+		  <imageobject>
+		    <!-- http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png -->
+		    <imagedata valign="bottom" fileref="cc/88x31.png" format="PNG" scalefit="1" width="44px" depth="15.5px"/>
+		  </imageobject>
+		</mediaobject>
+	      </entry>
+	      <entry>
+		<para>Toto dílo je licencováno pod
+		<emphasis>Creative Commons Attribution-Noncommercial-Share
+		Alike 3.0 Unported</emphasis>.</para>
+	      </entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </informaltable>
+<!--
       <para>
 	<inlinemediaobject>
 	  <imageobject>
@@ -56,13 +86,13 @@
 	    <imagedata valign="bottom" fileref="cc/by-nc-sa.svg" format="SVG" scalefit="1" width="44px" depth="15.5px"/>
 	  </imageobject>
 	  <imageobject>
-	    <!-- http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png -->
 	    <imagedata valign="bottom" fileref="cc/88x31.png" format="PNG" scalefit="1" width="44px" depth="15.5px"/>
 	  </imageobject>
 	</inlinemediaobject> Toto dílo je licencováno pod
 	<emphasis>Creative Commons Attribution-Noncommercial-Share
 	Alike 3.0 Unported</emphasis>.
       </para>
+-->
       <formalpara>
 	<title>Neoficiální překlad shrnutí této licence:</title>
 	<para>
@@ -107,7 +137,8 @@
 	      <term>Nekomerčně.</term>
 	      <listitem>
 		<para>
-		  Není možno využívat dílo pro komerční účely.
+		  <emphasis role="bold">Není možno využívat dílo pro
+		  komerční účely.</emphasis>
 		</para>
 	      </listitem>
 	    </varlistentry>
